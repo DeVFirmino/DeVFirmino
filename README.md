@@ -20,7 +20,7 @@ var daniel = new BackendDeveloper
     Architecture = new[] { "Clean Architecture", "Microservices" },
     Education = new[] { "South East Technological University", "Unifatecie" },
     Hobbies = new[] { "Football", "Gym" },
-    Goal = "Back-end Engineer Roles"
+    Goal = "Software Engineer Roles"
 };
 ```
 
