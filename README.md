@@ -9,15 +9,20 @@
 ## About Me
 
 ```csharp
-var daniel = new Developer
+var daniel = new BackendDeveloper
 {
-    Name = "Daniel Dias",
-    Role = "Backend Developer",
-    Focus = "Real-world APIs & Scalability",
-    Stack = new[] { 
-        ".NET", "C#", "SQL Server", "Docker", 
-        "Azure DevOps", "Entity Framework" 
-    }
+    Pronouns = "He | Him",
+    Code = new[] { "C#", "JavaScript" },
+    Technologies = new 
+    {
+        Backend = new[] { ".NET", "ASP.NET Core", "EF Core", "xUnit" },
+        DevOps = new[] { "Azure", "Docker" },
+        Databases = new[] { "SQL Server", "SQLite", "PostgreSQL" }
+    },
+    Architecture = new[] { "Clean Architecture", "Microservices" },
+    Education = new[] { "South East Technological University", "Unifatecie" },
+    Hobbies = new[] { "Football", "Gym" },
+    Goal = "Back-end Engineer Roles"
 };
 ```
 ---
