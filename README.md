@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hey, I'm Daniel Dias!</h1>
-  <h3>Backend Developer | C# & .NET | Building Real-World APIs</h3>
+  <h3>Software Developer | C# & .NET | Building Real-World APIs</h3>
 </div>
 
 ---
