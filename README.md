@@ -20,20 +20,9 @@ var daniel dias = new SoftwareDeveloper
     Architecture = new[] { "Clean Architecture", "Microservices" },
     Education = new[] { "South East Technological University", "Unifatecie" },
     Hobbies = new[] { "Football", "Gym" },
-    Goal = GetCareerGoal()
+    Goal = "Software Engineer"
 };
 
-string GetCareerGoal()
-{
-    var preferredRole = "Backend";
-    
-    if (preferredRole == "Backend")
-        return "Backend Engineer";
-    else if (preferredRole == "Frontend")
-        return "Frontend Engineer";
-    else
-        return "Full Stack Engineer";
-}
 ```
 
 ---
