@@ -7,7 +7,7 @@
 
 ## About Me
 ```csharp
-var daniel = new BackendDeveloper
+var daniel dias = new SoftwareDeveloper
 {
     Pronouns = "He | Him",
     Code = new[] { "C#", "JavaScript" },
@@ -20,8 +20,20 @@ var daniel = new BackendDeveloper
     Architecture = new[] { "Clean Architecture", "Microservices" },
     Education = new[] { "South East Technological University", "Unifatecie" },
     Hobbies = new[] { "Football", "Gym" },
-    Goal = "Software Engineer Roles"
+    Goal = GetCareerGoal()
 };
+
+string GetCareerGoal()
+{
+    var preferredRole = "Backend";
+    
+    if (preferredRole == "Backend")
+        return "Backend Engineer";
+    else if (preferredRole == "Frontend")
+        return "Frontend Engineer";
+    else
+        return "Full Stack Engineer";
+}
 ```
 
 ---
