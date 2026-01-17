@@ -1,13 +1,11 @@
 <div align="center">
   <h1>Hey, I'm Daniel Dias!</h1>
-
-  <h3>
-    Backend developer C# and .NET with a focus on building real-world APIs
-  </h3>
+  <h3>Backend Developer | C# & .NET | Building Real-World APIs</h3>
 </div>
 
-## About Me
+---
 
+## About Me
 ```csharp
 var daniel = new BackendDeveloper
 {
@@ -25,33 +23,45 @@ var daniel = new BackendDeveloper
     Goal = "Back-end Engineer Roles"
 };
 ```
+
 ---
+
+## Technologies & Tools
+
+
 <div align="center">
 
-## Technologies and Tools
-   
----
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![NET](https://img.shields.io/badge/-NET-5C2D91?style=flat-square&logo=.net&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-0085B6?style=flat-square&logo=azuredevops&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-red?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&logoColor=white)
 </div>
 
-###
+---
 
-##  Projects
+## Featured Projects
 
-Check out my repositories here:
-
-🔗 [GitHub: https://github.com/DeVFirmino](https://github.com/DeVFirmino?tab=repositories))
+Check out my [repositories](https://github.com/DeVFirmino?tab=repositories) to see what I've been building!
 
 ---
 
-## Find me:
+## Let's Connect
 
-<div align="center"> <a href="https://www.linkedin.com/in/daniel-dias-504168113/" target="_blank"> <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" /> </a> <a href="mailto:daanspfc@gmail.com" target="_blank"> <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" /> </a> <a href="https://github.com/DeVFirmino" target="_blank"> </a> </div>
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-dias-504168113/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daanspfc@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DeVFirmino)
+
+</div>
+
+---
+
+<div align="center">
+  <i> Open to new opportunities!</i>
+</div>
