@@ -49,15 +49,15 @@ var DanielDias = new SoftwareDeveloper
 
 <div align="center">
   <a href="https://github.com/DeVFirmino/SportsBetting">
-    <img src="./assets/sports-betting-api-logo-v3.svg" width="300" alt="Sports Betting API"/>
+    <img src="./assets/sports-betting-api-logo-v3.svg" width="275" alt="Sports Betting API"/>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DeVFirmino/FleetAnalytics">
-    <img src="./assets/fleet-analytics-api-logo-v3.svg" width="300" alt="Fleet Analytics API"/>
+    <img src="./assets/fleet-analytics-api-logo-v3.svg" width="275" alt="Fleet Analytics API"/>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DeVFirmino/BookManagment">
-    <img src="./assets/books-api-logo-v3.svg" width="300" alt="Books API"/>
+    <img src="./assets/books-api-logo-v3.svg" width="275" alt="Books API"/>
   </a>
 </div>
 
