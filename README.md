@@ -10,17 +10,19 @@
 var DanielDias = new SoftwareDeveloper
 {
     Pronouns = "He | Him",
-    Code = new[] { "C#", "JavaScript" },
+    Code = new[] { "C#", "T-SQL" },
     Technologies = new 
     {
-        Backend = new[] { ".NET", "ASP.NET Core", "EF Core", "xUnit" },
-        DevOps = new[] { "Azure", "Docker" },
-        Databases = new[] { "SQL Server", "SQLite", "PostgreSQL" }
+        Backend = new[] { ".NET", "ASP.NET Core", "EF Core", "REST APIs" },
+        Testing = new[] { "xUnit", "TDD" },
+        DevOps = new[] { "Docker", "Azure", "CI/CD" },
+        Databases = new[] { "SQL Server", "PostgreSQL" }
     },
-    Architecture = new[] { "Clean Architecture", "Microservices" },
-    Education = new[] { "South East Technological University", "Unifatecie" },
+    Architecture = new[] { "Clean Architecture", "SOLID", "Repository Pattern" },
+    CurrentlyLearning = "Microservices",
+    Education = new[] { "SETU Ireland", "Unifatecie Brazil" },
     Hobbies = new[] { "Football", "Gym" },
-    Goal = "Software Engineer"
+    Goal = "Backend .NET Developer"
 };
 
 ```
