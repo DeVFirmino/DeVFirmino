@@ -7,7 +7,7 @@
 
 ## About Me
 ```csharp
-var daniel dias = new SoftwareDeveloper
+var DanielDias = new SoftwareDeveloper
 {
     Pronouns = "He | Him",
     Code = new[] { "C#", "JavaScript" },
@@ -47,7 +47,9 @@ var daniel dias = new SoftwareDeveloper
 
 ## Featured Projects
 
+
 Check out my [repositories](https://github.com/DeVFirmino?tab=repositories) to see what I've been building!
+
 
 ---
 
