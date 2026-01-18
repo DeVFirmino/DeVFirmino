@@ -47,8 +47,27 @@ var DanielDias = new SoftwareDeveloper
 
 ## Featured Projects
 
+<div align="center">
+  <a href="https://github.com/DeVFirmino/SportsBetting">
+    <img src="./assets/sports-betting-api-logo-v2.svg" width="220" alt="Sports Betting API"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DeVFirmino/FleetAnalytics">
+    <img src="./assets/fleet-analytics-api-logo-v2.svg" width="220" alt="Fleet Analytics API"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DeVFirmino/BookManagment">
+    <img src="./assets/books-api-logo-v2.svg" width="220" alt="Books API"/>
+  </a>
+</div>
 
-Check out my [repositories](https://github.com/DeVFirmino?tab=repositories) to see what I've been building!
+<br/>
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) | REST API for betting platform with wallet system and real-time odds | .NET 9, Clean Architecture, JWT, EF Core, SQL Server |
+| [**Fleet Analytics API**](https://github.com/DeVFirmino/FleetAnalytics) | Vehicle telemetry processing with speeding violation detection | .NET 9, EF Core, SQLite |
+| [**Books API**](https://github.com/DeVFirmino/BookManagment) | Library management system with borrowing workflows and Excel reports | .NET 8, ASP.NET Core MVC, EF Core, ClosedXML |
 
 
 ---
