@@ -49,15 +49,15 @@ var DanielDias = new SoftwareDeveloper
 
 <div align="center">
   <a href="https://github.com/DeVFirmino/SportsBetting">
-    <img src="./assets/sports-betting-api-logo-v2.svg" width="220" alt="Sports Betting API"/>
+    <img src="./assets/sports-betting-api-logo-v3.svg" width="300" alt="Sports Betting API"/>
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DeVFirmino/FleetAnalytics">
-    <img src="./assets/fleet-analytics-api-logo-v2.svg" width="220" alt="Fleet Analytics API"/>
+    <img src="./assets/fleet-analytics-api-logo-v3.svg" width="300" alt="Fleet Analytics API"/>
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DeVFirmino/BookManagment">
-    <img src="./assets/books-api-logo-v2.svg" width="220" alt="Books API"/>
+    <img src="./assets/books-api-logo-v3.svg" width="300" alt="Books API"/>
   </a>
 </div>
 
@@ -68,7 +68,6 @@ var DanielDias = new SoftwareDeveloper
 | [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) | REST API for betting platform with wallet system and real-time odds | .NET 9, Clean Architecture, JWT, EF Core, SQL Server |
 | [**Fleet Analytics API**](https://github.com/DeVFirmino/FleetAnalytics) | Vehicle telemetry processing with speeding violation detection | .NET 9, EF Core, SQLite |
 | [**Books API**](https://github.com/DeVFirmino/BookManagment) | Library management system with borrowing workflows and Excel reports | .NET 8, ASP.NET Core MVC, EF Core, ClosedXML |
-
 
 ---
 
