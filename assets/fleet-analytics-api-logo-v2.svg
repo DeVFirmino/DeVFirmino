@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="faBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020617"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="faCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22d3ee"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="faRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f87171"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <filter id="faGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" rx="32" fill="url(#faBg)"/>
+  
+  <!-- Grid overlay -->
+  <g stroke="#22d3ee" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="100" x2="400" y2="100"/>
+    <line x1="0" y1="200" x2="400" y2="200"/>
+    <line x1="0" y1="300" x2="400" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+  </g>
+  
+  <!-- Speedometer arc -->
+  <g transform="translate(200, 180)">
+    <!-- Outer arc -->
+    <path d="M-100 0 A100 100 0 0 1 100 0" fill="none" stroke="#1e293b" stroke-width="20" stroke-linecap="round"/>
+    <!-- Progress arc (showing high speed) -->
+    <path d="M-100 0 A100 100 0 0 1 70 -70" fill="none" stroke="url(#faRed)" stroke-width="20" stroke-linecap="round" filter="url(#faGlow)"/>
+    <!-- Tick marks -->
+    <g stroke="#475569" stroke-width="2">
+      <line x1="-85" y1="0" x2="-70" y2="0"/>
+      <line x1="-60" y1="-60" x2="-50" y2="-50"/>
+      <line x1="0" y1="-85" x2="0" y2="-70"/>
+      <line x1="60" y1="-60" x2="50" y2="-50"/>
+      <line x1="85" y1="0" x2="70" y2="0"/>
+    </g>
+    <!-- Speed value -->
+    <text x="0" y="-20" font-family="'Arial Black', sans-serif" font-size="48" fill="#fff" text-anchor="middle">92</text>
+    <text x="0" y="10" font-family="'Arial', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">km/h</text>
+    <!-- Needle -->
+    <line x1="0" y1="0" x2="50" y2="-50" stroke="url(#faRed)" stroke-width="4" stroke-linecap="round" filter="url(#faGlow)"/>
+    <circle cx="0" cy="0" r="8" fill="#0f172a" stroke="url(#faCyan)" stroke-width="2"/>
+  </g>
+  
+  <!-- Alert box -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="120" height="50" rx="8" fill="#1e293b" stroke="url(#faRed)" stroke-width="1"/>
+    <circle cx="20" cy="25" r="8" fill="url(#faRed)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="22" font-family="monospace" font-size="10" fill="#94a3b8">ALERT</text>
+    <text x="40" y="38" font-family="monospace" font-size="12" font-weight="bold" fill="url(#faRed)">SPEEDING</text>
+  </g>
+  
+  <!-- Status box -->
+  <g transform="translate(230, 60)">
+    <rect x="0" y="0" width="120" height="50" rx="8" fill="#1e293b" stroke="url(#faCyan)" stroke-width="1"/>
+    <text x="15" y="22" font-family="monospace" font-size="10" fill="#94a3b8">VEHICLES</text>
+    <text x="15" y="40" font-family="monospace" font-size="20" font-weight="bold" fill="url(#faCyan)">24</text>
+    <text x="50" y="40" font-family="monospace" font-size="12" fill="#22c55e">ONLINE</text>
+  </g>
+  
+  <!-- Car icon simplified -->
+  <g transform="translate(320, 250)">
+    <rect x="0" y="10" width="40" height="15" rx="4" fill="url(#faCyan)" opacity="0.8"/>
+    <rect x="5" y="5" width="15" height="10" rx="2" fill="url(#faCyan)" opacity="0.6"/>
+    <circle cx="10" cy="28" r="5" fill="#0f172a" stroke="url(#faCyan)" stroke-width="2"/>
+    <circle cx="30" cy="28" r="5" fill="#0f172a" stroke="url(#faCyan)" stroke-width="2"/>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="200" y="320" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="url(#faCyan)" text-anchor="middle" letter-spacing="2">FLEET ANALYTICS</text>
+  <text x="200" y="355" font-family="'Courier New', monospace" font-size="18" fill="#64748b" text-anchor="middle">{ API }</text>
+  
+  <!-- Version badge -->
+  <g transform="translate(155, 370)">
+    <rect x="0" y="0" width="90" height="22" rx="11" fill="#1e293b"/>
+    <text x="45" y="15" font-family="monospace" font-size="10" fill="#22d3ee" text-anchor="middle">.NET 9</text>
+  </g>
+</svg>
