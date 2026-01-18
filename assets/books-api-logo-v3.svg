@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="bkOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c"/>
+      <stop offset="100%" style="stop-color:#ea580c"/>
+    </linearGradient>
+    <linearGradient id="bkTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2dd4bf"/>
+      <stop offset="100%" style="stop-color:#14b8a6"/>
+    </linearGradient>
+    <filter id="bkShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes pageTurn {
+      0%, 100% { transform: scaleX(1); }
+      50% { transform: scaleX(-1); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+    .book-float { animation: float 3s ease-in-out infinite; }
+    .page-turn { animation: pageTurn 2.5s ease-in-out infinite; transform-origin: left center; }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="400" height="400" rx="32" fill="url(#bkBg)"/>
+  
+  <!-- Decorative dots -->
+  <g fill="url(#bkTeal)" opacity="0.15">
+    <circle cx="50" cy="50" r="4"/>
+    <circle cx="80" cy="50" r="4"/>
+    <circle cx="50" cy="80" r="4"/>
+    <circle cx="350" cy="350" r="4"/>
+    <circle cx="320" cy="350" r="4"/>
+    <circle cx="350" cy="320" r="4"/>
+  </g>
+  
+  <!-- Main book group with float animation -->
+  <g filter="url(#bkShadow)" class="book-float">
+    <!-- Book back cover -->
+    <rect x="120" y="80" width="160" height="130" rx="4" fill="#0f4c5c"/>
+    
+    <!-- Pages stack -->
+    <rect x="125" y="85" width="150" height="120" rx="2" fill="#fef3c7"/>
+    <rect x="127" y="87" width="146" height="116" rx="2" fill="#fffbeb"/>
+    
+    <!-- Page lines -->
+    <g stroke="#d97706" stroke-width="1" opacity="0.3">
+      <line x1="140" y1="105" x2="250" y2="105"/>
+      <line x1="140" y1="120" x2="255" y2="120"/>
+      <line x1="140" y1="135" x2="245" y2="135"/>
+      <line x1="140" y1="150" x2="250" y2="150"/>
+      <line x1="140" y1="165" x2="240" y2="165"/>
+      <line x1="140" y1="180" x2="255" y2="180"/>
+    </g>
+    
+    <!-- Turning page -->
+    <rect x="200" y="87" width="73" height="116" rx="1" fill="#fff8e7" class="page-turn"/>
+    
+    <!-- Book spine -->
+    <rect x="120" y="80" width="14" height="130" rx="2" fill="url(#bkOrange)"/>
+    
+    <!-- Bookmark ribbon -->
+    <path d="M250 80 L250 120 L258 110 L266 120 L266 80" fill="url(#bkTeal)"/>
+  </g>
+  
+  <!-- Stats cards -->
+  <g transform="translate(55, 235)">
+    <rect x="0" y="0" width="85" height="50" rx="10" fill="#0f4c5c" opacity="0.6"/>
+    <text x="42" y="22" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">BOOKS</text>
+    <text x="42" y="42" font-family="Arial Black, sans-serif" font-size="18" fill="url(#bkOrange)" text-anchor="middle" class="pulse">1,247</text>
+  </g>
+  
+  <g transform="translate(157, 235)">
+    <rect x="0" y="0" width="85" height="50" rx="10" fill="#0f4c5c" opacity="0.6"/>
+    <text x="42" y="22" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">USERS</text>
+    <text x="42" y="42" font-family="Arial Black, sans-serif" font-size="18" fill="url(#bkTeal)" text-anchor="middle" class="pulse">328</text>
+  </g>
+  
+  <g transform="translate(259, 235)">
+    <rect x="0" y="0" width="85" height="50" rx="10" fill="#0f4c5c" opacity="0.6"/>
+    <text x="42" y="22" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">LOANS</text>
+    <text x="42" y="42" font-family="Arial Black, sans-serif" font-size="18" fill="#a78bfa" text-anchor="middle" class="pulse">89</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="320" font-family="Arial Black, sans-serif" font-size="32" fill="url(#bkOrange)" text-anchor="middle" letter-spacing="2">BOOKS</text>
+  <text x="200" y="355" font-family="Courier New, monospace" font-size="20" fill="#64748b" text-anchor="middle">{ API }</text>
+  
+  <!-- Tech badge -->
+  <g transform="translate(140, 370)">
+    <rect x="0" y="0" width="120" height="24" rx="12" fill="#0f4c5c"/>
+    <text x="60" y="16" font-family="monospace" font-size="11" fill="url(#bkTeal)" text-anchor="middle">ASP.NET MVC</text>
+  </g>
+</svg>
