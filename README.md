@@ -19,10 +19,10 @@ var DanielDias = new SoftwareDeveloper
         Databases = new[] { "SQL Server", "PostgreSQL" }
     },
     Architecture = new[] { "Clean Architecture", "SOLID", "Repository Pattern" },
-    CurrentlyLearning = "Microservices",
+    CurrentlyLearning = "Microservices and Angular",
     Education = new[] { "SETU Ireland", "Unifatecie Brazil" },
     Hobbies = new[] { "Football", "Gym" },
-    Goal = "Backend .NET Developer"
+    Goal = ".NET Developer"
 };
 
 ```
