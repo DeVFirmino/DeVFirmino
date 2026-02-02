@@ -65,6 +65,10 @@ var DanielDias = new SoftwareDeveloper
   </a>
 </div>
 
+
+
+---
+
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) | REST API for betting platform with wallet system and real-time odds | .NET 9, Clean Architecture, JWT, EF Core, SQL Server |
