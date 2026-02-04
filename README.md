@@ -14,12 +14,12 @@ var DanielDias = new SoftwareDeveloper
     Technologies = new 
     {
         Backend = new[] { ".NET", "ASP.NET Core", "EF Core", "REST APIs" },
-        Testing = new[] { "xUnit", "TDD" },
+        Testing = new[] { "xUnit", },
         DevOps = new[] { "Docker", "Azure", "CI/CD" },
         Databases = new[] { "SQL Server", "PostgreSQL" }
     },
     Architecture = new[] { "Clean Architecture", "SOLID", "Repository Pattern" },
-    CurrentlyLearning = "Microservices and Angular",
+    CurrentlyLearning = "Angular",
     Education = new[] { "Computing at SETU Ireland", "System Analysis at Unifatecie Brazil" },
     Languages = new[] { "Portuguese", "English", "Italian" },
     Hobbies = new[] { "Football", "Gym" },
