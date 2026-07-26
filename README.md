@@ -9,6 +9,7 @@
 
 **.NET backend developer building payment, betting and financial systems.**
 
+Diploma in Analysis and Development Systems(Unifacetie, Brasil)
 Higher Diploma in Computing (SETU, Ireland) · PT · EN · IT · FR
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**LinkedIn**](https://www.linkedin.com/in/daniel-dias-504168113/) · [**Email**](mailto:daanspfc@gmail.com)
