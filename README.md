@@ -9,8 +9,9 @@
 
 **.NET backend developer building payment, betting and financial systems.**
 
-Diploma in Analysis and Development Systems(Unifacetie, Brasil)
-Higher Diploma in Computing (SETU, Ireland) · PT · EN · IT · FR
+Technology Degree in Systems Analysis and Development (UniFatecie, Brazil)<br>
+Higher Diploma in Computing (SETU, Ireland)<br>
+PT · EN · IT · FR
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**LinkedIn**](https://www.linkedin.com/in/daniel-dias-504168113/) · [**Email**](mailto:daanspfc@gmail.com)
 
@@ -49,8 +50,8 @@ Higher Diploma in Computing (SETU, Ireland) · PT · EN · IT · FR
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 **Learning**
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
- 
+
+![AZ-900](https://img.shields.io/badge/AZ--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ---
 
@@ -88,13 +89,13 @@ Higher Diploma in Computing (SETU, Ireland) · PT · EN · IT · FR
 
 [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — a scenario-based guide to Azure Fundamentals covering all three exam domains. 31 lessons, 3 cheat sheets and 3 practice quizzes with explained answer keys.
 
-[**Blog**](https://danieldias.dev/en/blog) — I share ideas, articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
+[**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
 ---
 
 <div align="center">
 
-Open to software developer and freelancer roles.
+Open to software developer and freelance roles.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-dias-504168113/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daanspfc@gmail.com)
