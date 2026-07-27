@@ -87,13 +87,13 @@ Higher Diploma in Computing (SETU, Ireland) · PT · EN · IT · FR
 
 [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — a scenario-based guide to Azure Fundamentals covering all three exam domains. 31 lessons, 3 cheat sheets and 3 practice quizzes with explained answer keys.
 
-[**Blog**](https://danieldias.dev/en/blog) — 42 posts on .NET, payments, Azure and system design, each published in five languages.
+[**Blog**](https://danieldias.dev/en/blog) — I share ideas, articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
 ---
 
 <div align="center">
 
-Open to .NET developer roles.
+Open to software developer and freelancer roles.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-dias-504168113/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daanspfc@gmail.com)
