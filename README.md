@@ -64,7 +64,7 @@ PT · EN · IT · FR(A2)
 |---|---|---|
 | [**Maltese Transcriber**](https://maltesetranscriber.mt) | Speech-to-text for Maltese, running in production | React · TypeScript · .NET 10 · SignalR · Speechmatics |
 
-### Payments and financial systems
+### Selected Backend Projects
 
 | Project | What it does | Built with |
 |---|---|---|
