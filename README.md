@@ -69,7 +69,7 @@ PT · EN · IT · FR(A2)
 | Project | What it does | Built with |
 |---|---|---|
 | [**PayMaestro**](https://github.com/DeVFirmino/PayMaestro) | Payment gateway orchestrator with idempotency keys, an explicit state machine and fraud rules | .NET · payments |
-| [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) | Betting platform with a wallet system and odds handling — [live demo](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html) | .NET 9 · EF Core · Azure Container Apps |
+| [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) | Betting platform with a wallet system and odds handling: [live demo](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html) | .NET 9 · EF Core · Azure Container Apps |
 | [**Transaction Management**](https://github.com/DeVFirmino/TransactionManagment) | Financial rules and transactional consistency | .NET |
 | [**Portfolio Manager**](https://github.com/DeVFirmino/AvaloniaPortifolioManager) | Desktop app for client investment portfolios, holdings and transaction history | Avalonia · C# · EF Core · SQLite |
 
