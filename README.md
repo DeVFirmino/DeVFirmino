@@ -11,6 +11,7 @@
 
 Technology Degree in Systems Analysis and Development (UniFatecie, Brazil)<br>
 Higher Diploma in Computing (SETU, Ireland)<br>
+
 PT · EN · IT · FR(A2)
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**LinkedIn**](https://www.linkedin.com/in/daniel-dias-504168113/) · [**Email**](mailto:daanspfc@gmail.com)
