@@ -7,7 +7,7 @@
 
 <br><br>
 
-**.NET backend developer building payment, betting and financial systems.**
+**Full Stack .NET developer building payment, betting and financial systems.**
 
 Technology Degree in Systems Analysis and Development (UniFatecie, Brazil)<br>
 Higher Diploma in Computing (SETU, Ireland)<br>
