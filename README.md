@@ -7,7 +7,7 @@
 
 <br><br>
 
-**Full Stack .NET developer building payment, betting and financial systems.**
+**Full-Stack .NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL.**
 
 Technology Degree in Systems Analysis and Development (UniFatecie, Brazil)<br>
 Higher Diploma in Computing (SETU, Ireland)<br>
