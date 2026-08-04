@@ -62,7 +62,7 @@ PT · EN · IT · FR(A2)
 
 | Project | What it does | Built with |
 |---|---|---|
-| [**Maltese Transcriber**](https://maltesetranscriber.mt) | Speech-to-text for Maltese, running in production | React · TypeScript · .NET 10 · SignalR · Speechmatics |
+| [**Maltese Transcriber**](https://maltesetranscriber.mt) | Speech-to-text for Maltese, running in production | React · TypeScript · .NET 10 · SignalR |
 
 ### Selected Backend Projects
 
