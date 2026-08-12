@@ -14,46 +14,44 @@
 
 </div>
 
-<img src="assets/rule-terracotta.png" alt="" width="100%">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/credentials-dark.png">
-  <img src="assets/credentials-light.png" alt="Education: Technology Degree in Systems Analysis and Development (UniFatecie, Brazil, QQI Level 6); Higher Diploma in Computing (SETU, Ireland, QQI Level 7). Languages: PT, EN, IT, FR (A2)." width="100%">
+  <img src="assets/credentials-light.png" alt="Education: Technology Degree in Systems Analysis and Development (UniFatecie, Brazil, QQI Level 6); Higher Diploma in Computing (SETU, Ireland, QQI Level 7). Languages spoken: PT, EN, IT, FR (A2)." width="100%">
 </picture>
 
-<img src="assets/section-01-tech.png" alt="01 — Tech" width="100%">
+## Tech
 
 **Backend**
 
-![C#](https://img.shields.io/badge/C%23-C85A32?style=flat-square&logo=csharp&logoColor=F3E7D0)
-![.NET](https://img.shields.io/badge/.NET-C85A32?style=flat-square&logo=dotnet&logoColor=F3E7D0)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-C85A32?style=flat-square&logo=dotnet&logoColor=F3E7D0)
-![EF Core](https://img.shields.io/badge/EF_Core-C85A32?style=flat-square&logo=nuget&logoColor=F3E7D0)
+![C#](https://img.shields.io/badge/C%23-E8DCC4?style=flat-square&logo=csharp&logoColor=26211C)
+![.NET](https://img.shields.io/badge/.NET-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
+![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)
 
 **Frontend**
 
-![React](https://img.shields.io/badge/React-3F6472?style=flat-square&logo=react&logoColor=F3E7D0)
-![Angular](https://img.shields.io/badge/Angular-3F6472?style=flat-square&logo=angular&logoColor=F3E7D0)
-![TypeScript](https://img.shields.io/badge/TypeScript-3F6472?style=flat-square&logo=typescript&logoColor=F3E7D0)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3F6472?style=flat-square&logo=tailwindcss&logoColor=F3E7D0)
+![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
+![Angular](https://img.shields.io/badge/Angular-E8DCC4?style=flat-square&logo=angular&logoColor=26211C)
+![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-E8DCC4?style=flat-square&logo=tailwindcss&logoColor=26211C)
 
 **Data**
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-8E4767?style=flat-square&logo=microsoftsqlserver&logoColor=F3E7D0)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-8E4767?style=flat-square&logo=postgresql&logoColor=F3E7D0)
-![Cassandra](https://img.shields.io/badge/Cassandra-8E4767?style=flat-square&logo=apachecassandra&logoColor=F3E7D0)
+![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E8DCC4?style=flat-square&logo=postgresql&logoColor=26211C)
+![Cassandra](https://img.shields.io/badge/Cassandra-E8DCC4?style=flat-square&logo=apachecassandra&logoColor=26211C)
 
-**DevOps**
+**Cloud**
 
-![Docker](https://img.shields.io/badge/Docker-4E5639?style=flat-square&logo=docker&logoColor=F3E7D0)
-![Azure](https://img.shields.io/badge/Azure-4E5639?style=flat-square&logo=microsoftazure&logoColor=F3E7D0)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-4E5639?style=flat-square&logo=githubactions&logoColor=F3E7D0)
+![Azure](https://img.shields.io/badge/Azure-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
+![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C)
 
 **Learning**
 
-![AZ-900](https://img.shields.io/badge/AZ--900-8A6A20?style=flat-square&logo=microsoftazure&logoColor=F3E7D0)
+![AZ-900](https://img.shields.io/badge/AZ--900-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
 
-<img src="assets/section-02-projects.png" alt="02 — Projects" width="100%">
+## Projects
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/card-maltese-dark.png">
@@ -112,13 +110,13 @@ Financial goals API with deposits and withdrawals, overdraft protection and deci
 
 </details>
 
-<img src="assets/section-03-writing.png" alt="03 — Writing" width="100%">
+## Writing
 
 [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — a practical Azure Fundamentals study guide focused on understanding the concepts behind the exam, not just memorising answers.
 
 [**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
-<img src="assets/section-04-say-hello.png" alt="04 — Say hello" width="100%">
+## Say hello
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
