@@ -14,7 +14,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/credentials-dark.png">
-  <img src="assets/credentials-light.png" alt="Education: Technology Degree in Systems Analysis and Development (UniFatecie, Brazil, QQI Level 6); Higher Diploma in Computing (SETU, Ireland, QQI Level 7). Languages: PT, EN, IT, FR (A2). Website and blog available in English, Portuguese, Italian, French and Maltese." width="100%">
+  <img src="assets/credentials-light.png" alt="Education: Technology Degree in Systems Analysis and Development (UniFatecie, Brazil, QQI Level 6); Higher Diploma in Computing (SETU, Ireland, QQI Level 7). Languages: PT, EN, IT, FR (A2)." width="100%">
 </picture>
 
 <img src="assets/section-01-tech.png" alt="01 — Tech" width="100%">
@@ -116,13 +116,7 @@ Financial goals API with deposits and withdrawals, overdraft protection and deci
 
 [**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
-<img src="assets/section-04-activity.png" alt="04 — Activity" width="100%">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=DeVFirmino&show_icons=true&hide_border=true&bg_color=00000000&title_color=C85A32&text_color=9198A1&icon_color=C85A32)
-
-![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DeVFirmino&layout=compact&hide_border=true&bg_color=00000000&title_color=C85A32&text_color=9198A1)
-
-<img src="assets/section-05-say-hello.png" alt="05 — Say hello" width="100%">
+<img src="assets/section-04-say-hello.png" alt="04 — Say hello" width="100%">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
