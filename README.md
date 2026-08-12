@@ -1,3 +1,5 @@
+<div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">
   <img src="assets/wordmark-light.png" alt="Daniel Dias" width="300">
@@ -5,12 +7,14 @@
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**LinkedIn**](https://www.linkedin.com/in/daniel-dias-504168113/) · [**Email**](mailto:daanspfc@gmail.com)
 
-<img src="assets/rule-terracotta.png" alt="" width="100%">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lead-dark.png">
-  <img src="assets/lead-light.png" alt="Full-Stack .NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="620">
+  <img src="assets/lead-light.png" alt="Full-Stack .NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="560">
 </picture>
+
+</div>
+
+<img src="assets/rule-terracotta.png" alt="" width="100%">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/credentials-dark.png">
@@ -49,23 +53,24 @@
 
 ![AZ-900](https://img.shields.io/badge/AZ--900-8A6A20?style=flat-square&logo=microsoftazure&logoColor=F3E7D0)
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DeVFirmino&theme=github_dark" alt="Repositories per language" height="180">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DeVFirmino&theme=github_dark" alt="Most used languages" height="180">
+
 <img src="assets/section-02-projects.png" alt="02 — Projects" width="100%">
 
-> ### Maltese Transcriber
-> **Flagship · Live product**
->
-> Live Maltese-to-English transcription for people trying to better understand everyday conversations.
->
-> [Open live site ↗](https://maltesetranscriber.mt) · Source private<br>
-> <sub>.NET · TYPESCRIPT · REACT · SIGNALR</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-maltese-dark.png">
+  <img src="assets/card-maltese-light.png" alt="Maltese Transcriber — flagship, live product. Live Maltese-to-English transcription for people trying to better understand everyday conversations. .NET, TypeScript, React, SignalR." width="100%">
+</picture>
 
-> ### GarageManager
-> **In development**
->
-> Building a full-stack platform to help garages spend less time on admin and manage repairs, customers and job cards more efficiently.
->
-> Source private<br>
-> <sub>.NET · REACT · TYPESCRIPT · POSTGRESQL · EF CORE</sub>
+[**Open live site ↗**](https://maltesetranscriber.mt) · <sub>Source private</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-garage-dark.png">
+  <img src="assets/card-garage-light.png" alt="GarageManager — in development. Building a full-stack platform to help garages spend less time on admin and manage repairs, customers and job cards more efficiently. .NET, React, TypeScript, PostgreSQL, EF Core." width="100%">
+</picture>
+
+<sub>Source private</sub>
 
 ### The build log
 
