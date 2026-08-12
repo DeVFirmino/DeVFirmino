@@ -1,19 +1,19 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/wordmark-dark.png">
-  <img src="assets/readme/wordmark-light.png" alt="Daniel Dias" width="300">
+  <source media="(prefers-color-scheme: dark)" srcset="wordmark-dark.png">
+  <img src="wordmark-light.png" alt="Daniel Dias" width="300">
 </picture>
 
 </div>
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**LinkedIn**](https://www.linkedin.com/in/daniel-dias-504168113/) · [**Email**](mailto:daanspfc@gmail.com)
 
-<img src="assets/readme/rule-terracotta.png" alt="" width="100%">
+<img src="rule-terracotta.png" alt="" width="100%">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/lead-dark.png">
-  <img src="assets/readme/lead-light.png" alt="Full-Stack .NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="620">
+  <source media="(prefers-color-scheme: dark)" srcset="lead-dark.png">
+  <img src="lead-light.png" alt="Full-Stack .NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="620">
 </picture>
 
 Technology Degree in Systems Analysis and Development (UniFatecie, Brazil)<br>
@@ -23,7 +23,7 @@ PT · EN · IT · FR(A2)
 
 <sub><i>Website and blog available in English, Portuguese, Italian, French and Maltese.</i></sub>
 
-<img src="assets/readme/section-01-tech.png" alt="01 — Tech" width="100%">
+<img src="section-01-tech.png" alt="01 — Tech" width="100%">
 
 **Backend**
 
@@ -55,7 +55,7 @@ PT · EN · IT · FR(A2)
 
 ![AZ-900](https://img.shields.io/badge/AZ--900-8A6A20?style=flat-square&logo=microsoftazure&logoColor=F3E7D0)
 
-<img src="assets/readme/section-02-projects.png" alt="02 — Projects" width="100%">
+<img src="section-02-projects.png" alt="02 — Projects" width="100%">
 
 ### Live product
 
@@ -101,19 +101,19 @@ Vehicle telemetry with speeding violation detection.<br>
 Library borrowing workflows and Excel reports.<br>
 <sub>ASP.NET MVC · EF CORE · CLOSEDXML</sub>
 
-<img src="assets/readme/section-03-writing.png" alt="03 — Writing" width="100%">
+<img src="section-03-writing.png" alt="03 — Writing" width="100%">
 
 [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — a scenario-based guide to Azure Fundamentals covering all three exam domains. 31 lessons, 3 cheat sheets and 3 practice quizzes with explained answer keys.
 
 [**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
-<img src="assets/readme/section-04-say-hello.png" alt="04 — Say hello" width="100%">
+<img src="section-04-say-hello.png" alt="04 — Say hello" width="100%">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/open-to-work-dark.png">
-  <img src="assets/readme/open-to-work-light.png" alt="Open to software developer and freelance roles." width="470">
+  <source media="(prefers-color-scheme: dark)" srcset="open-to-work-dark.png">
+  <img src="open-to-work-light.png" alt="Open to software developer and freelance roles." width="470">
 </picture>
 
-[<img src="assets/readme/cta-linkedin.png" alt="LinkedIn" height="32">](https://www.linkedin.com/in/daniel-dias-504168113/)
-[<img src="assets/readme/cta-email.png" alt="Email" height="32">](mailto:daanspfc@gmail.com)
-[<img src="assets/readme/cta-website.png" alt="Website" height="32">](https://danieldias.dev/en)
+[<img src="cta-linkedin.png" alt="LinkedIn" height="32">](https://www.linkedin.com/in/daniel-dias-504168113/)
+[<img src="cta-email.png" alt="Email" height="32">](mailto:daanspfc@gmail.com)
+[<img src="cta-website.png" alt="Website" height="32">](https://danieldias.dev/en)
