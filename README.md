@@ -9,7 +9,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lead-dark.png">
-  <img src="assets/lead-light.png" alt="Full-Stack .NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="560">
+  <img src="assets/lead-light.png" alt="Full-Stack .NET Developer building web applications with .NET, Azure and TypeScript." width="560">
 </picture>
 
 </div>
@@ -52,9 +52,6 @@
 **Learning**
 
 ![AZ-900](https://img.shields.io/badge/AZ--900-8A6A20?style=flat-square&logo=microsoftazure&logoColor=F3E7D0)
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DeVFirmino&theme=github_dark" alt="Repositories per language" height="180">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DeVFirmino&theme=github_dark" alt="Most used languages" height="180">
 
 <img src="assets/section-02-projects.png" alt="02 — Projects" width="100%">
 
@@ -125,7 +122,7 @@ Financial goals API with deposits and withdrawals, overdraft protection and deci
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
-  <img src="assets/open-to-work-light.png" alt="Open to software developer and freelance roles." width="470">
+  <img src="assets/open-to-work-light.png" alt="Open to software roles, freelance projects and collaborations." width="470">
 </picture>
 
 [<img src="assets/cta-linkedin.png" alt="LinkedIn" height="32">](https://www.linkedin.com/in/daniel-dias-504168113/)
