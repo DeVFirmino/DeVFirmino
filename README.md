@@ -54,8 +54,6 @@
 ## Certifications
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900) — 2026**
-- [**iGaming Academy — Anti-Fraud & Payments Handling (2026)**](https://github.com/DeVFirmino/PayMaestro/blob/main/docs/certificates/Daniel_Silva_Anti_Fraud_and_Payments_Handling_2026.pdf)
-- **iGaming Academy — Anti-Money Laundering and Counter Terrorist Financing for Online Operators (2026)**
 
 ## Projects
 
