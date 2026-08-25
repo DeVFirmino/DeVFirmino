@@ -51,6 +51,11 @@
 
 ![AZ-900](https://img.shields.io/badge/AZ--900-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
 
+## Certifications
+
+- [**iGaming Academy — Anti-Fraud & Payments Handling (2026)**](https://github.com/DeVFirmino/PayMaestro/blob/main/docs/certificates/Daniel_Silva_Anti_Fraud_and_Payments_Handling_2026.pdf)
+- **iGaming Academy — Anti-Money Laundering and Counter Terrorist Financing for Online Operators (2026)**
+
 ## Projects
 
 <picture>
@@ -60,21 +65,14 @@
 
 [**Open live site ↗**](https://maltesetranscriber.mt) · <sub>Source private</sub>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-garage-dark.png">
-  <img src="assets/card-garage-light.png" alt="GarageManager — in development. Building a full-stack platform to help garages spend less time on admin and manage repairs, customers and job cards more efficiently. .NET, React, TypeScript, PostgreSQL, EF Core." width="100%">
-</picture>
-
-<sub>Source private</sub>
-
 ### The build log
 
 [**PayMaestro**](https://github.com/DeVFirmino/PayMaestro)<br>
-A payment orchestration case study built to explore reliable payment processing, gateway failover and protection against duplicate charges.<br>
+A payment orchestration study project exploring decline-aware gateway cascades, completed-outcome replay, fraud screening and audit trails.<br>
 <sub>.NET · ASP.NET CORE · EF CORE · SQL</sub>
 
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting)<br>
-A backend betting platform with wallets, markets and bet settlement, built around safe balance handling and concurrent transactions. [Live API ↗](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html)<br>
+A backend betting study API with wallets, markets and bet settlement, keeping fixture odds and potential winnings under server control. [Live API ↗](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html)<br>
 <sub>.NET · ASP.NET CORE · SQL · AZURE</sub>
 
 [**URL Shortener**](https://github.com/DeVFirmino/UrlShortner)<br>
