@@ -47,12 +47,13 @@
 ![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C)
 
-**Learning**
+**Certified**
 
-![AZ-900](https://img.shields.io/badge/AZ--900-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
+![AZ-900](https://img.shields.io/badge/AZ--900_Certified-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
 
 ## Certifications
 
+- **Microsoft Certified: Azure Fundamentals (AZ-900) — 2026**
 - [**iGaming Academy — Anti-Fraud & Payments Handling (2026)**](https://github.com/DeVFirmino/PayMaestro/blob/main/docs/certificates/Daniel_Silva_Anti_Fraud_and_Payments_Handling_2026.pdf)
 - **iGaming Academy — Anti-Money Laundering and Counter Terrorist Financing for Online Operators (2026)**
 
