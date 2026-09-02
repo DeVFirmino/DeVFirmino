@@ -71,17 +71,15 @@ A payment orchestration study project exploring decline-aware gateway cascades, 
 <sub>.NET · ASP.NET CORE · EF CORE · SQL</sub>
 
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting)<br>
-A backend betting study API with wallets, markets and bet settlement, keeping fixture odds and potential winnings under server control. [Live API ↗](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html)<br>
-<sub>.NET · ASP.NET CORE · SQL · AZURE</sub>
+A backend betting study API with wallets, markets and idempotent bet placement, keeping odds and potential winnings under server control, with SQL Server integration tests in CI.<br>
+<sub>.NET · ASP.NET CORE · SQL SERVER · DOCKER</sub>
 
 [**URL Shortener**](https://github.com/DeVFirmino/UrlShortner)<br>
 A distributed URL shortening service built to handle fast redirects, caching and horizontal scaling across multiple API instances.<br>
 <sub>.NET · REDIS · CASSANDRA · DOCKER</sub>
 
-<sub>The Sports Betting demo scales to zero, so the first request can take around 15 seconds. It is fast after that.</sub>
-
 <details>
-<summary><b>Five more projects</b></summary>
+<summary><b>Four more projects</b></summary>
 
 <br>
 
@@ -94,22 +92,20 @@ Order management API with combo discount rules, domain-level category invariants
 <sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
 
 [**Book Management**](https://github.com/DeVFirmino/BookManagment)<br>
-ASP.NET Core MVC library application with borrowing workflows, inventory management and reporting.<br>
+ASP.NET Core MVC library lending study project; role-based access enforced by an action filter, with tests covering admin, non-admin and anonymous access.<br>
 <sub>.NET · ASP.NET CORE MVC · EF CORE · SQL</sub>
 
 [**Portfolio Manager**](https://github.com/DeVFirmino/AvaloniaPortifolioManager)<br>
 Desktop app for browsing clients, investment portfolios, holdings and transactions — built with Avalonia (a cross-platform take on WinForms/WPF) and EF Core.<br>
 <sub>.NET · AVALONIA · EF CORE · SQL</sub>
 
-[**Transaction Management**](https://github.com/DeVFirmino/TransactionManagment)<br>
-Financial goals API with deposits and withdrawals, overdraft protection and decimal-safe EF Core persistence.<br>
-<sub>.NET · ASP.NET CORE · EF CORE · SQL</sub>
-
 </details>
 
 ## Writing
 
 [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — a practical Azure Fundamentals study guide focused on understanding the concepts behind the exam, not just memorising answers.
+
+[**kubectl by example**](https://github.com/DeVFirmino/kubectl-by-example) — CKAD preparation in public: imperative kubectl commands one section at a time, with the real output from a disposable kind cluster, each section paired with a blog post.
 
 [**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
