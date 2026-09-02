@@ -71,12 +71,14 @@ A payment orchestration study project exploring decline-aware gateway cascades, 
 <sub>.NET · ASP.NET CORE · EF CORE · SQL</sub>
 
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting)<br>
-A backend betting study API with wallets, markets and idempotent bet placement, keeping odds and potential winnings under server control, with SQL Server integration tests in CI.<br>
-<sub>.NET · ASP.NET CORE · SQL SERVER · DOCKER</sub>
+A backend betting study API with wallets, markets and idempotent bet placement, keeping odds and potential winnings under server control, with SQL Server integration tests in CI. [Live API ↗](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html)<br>
+<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE</sub>
 
 [**URL Shortener**](https://github.com/DeVFirmino/UrlShortner)<br>
 A distributed URL shortening service built to handle fast redirects, caching and horizontal scaling across multiple API instances.<br>
 <sub>.NET · REDIS · CASSANDRA · DOCKER</sub>
+
+<sub>The Sports Betting demo scales to zero, so the first request can take around 15 seconds. It is fast after that.</sub>
 
 <details>
 <summary><b>Four more projects</b></summary>
