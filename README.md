@@ -7,10 +7,8 @@
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**LinkedIn**](https://www.linkedin.com/in/daniel-dias-504168113/) · [**Email**](mailto:daanspfc@gmail.com)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/lead-dark.png">
-  <img src="assets/lead-light.png" alt="Full-Stack .NET Developer building web applications with .NET, Azure and TypeScript." width="560">
-</picture>
+<h3>Software Developer</h3>
+<p>Backend development with .NET, C#, ASP.NET Core and SQL.</p>
 
 </div>
 
@@ -28,7 +26,7 @@
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
 ![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)
 
-**Frontend**
+**Interfaces used in my projects**
 
 ![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
 ![Angular](https://img.shields.io/badge/Angular-E8DCC4?style=flat-square&logo=angular&logoColor=26211C)
@@ -112,6 +110,8 @@ Desktop app for browsing clients, investment portfolios, holdings and transactio
 [**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
 ## Say hello
+
+I’m open to backend .NET roles and freelance projects involving APIs and integrations.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
