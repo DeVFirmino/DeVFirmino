@@ -7,8 +7,10 @@
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**LinkedIn**](https://www.linkedin.com/in/daniel-dias-504168113/) · [**Email**](mailto:daanspfc@gmail.com)
 
-<h3>Software Developer</h3>
-<p>Backend development with .NET, C#, ASP.NET Core and SQL.</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lead-dark.svg">
+  <img src="assets/lead-light.svg" alt=".NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="620">
+</picture>
 
 </div>
 
