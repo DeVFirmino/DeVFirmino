@@ -9,7 +9,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lead-dark.svg">
-  <img src="assets/lead-light.svg" alt=".NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="620">
+  <img src="assets/lead-light.svg" alt=".NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="518">
 </picture>
 
 </div>
