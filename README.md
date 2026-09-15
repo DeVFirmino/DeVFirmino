@@ -81,7 +81,7 @@ A distributed URL shortening service built to handle fast redirects, caching and
 <sub>The Sports Betting demo scales to zero, so the first request can take around 15 seconds. It is fast after that.</sub>
 
 <details>
-<summary><b>Four more projects</b></summary>
+<summary><b>Five more projects</b></summary>
 
 <br>
 
@@ -94,12 +94,16 @@ Order management API with combo discount rules, domain-level category invariants
 <sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
 
 [**Book Management**](https://github.com/DeVFirmino/BookManagment)<br>
-ASP.NET Core MVC library lending study project; role-based access enforced by an action filter, with tests covering admin, non-admin and anonymous access.<br>
+ASP.NET Core MVC library lending study project; the admin area sits behind an action filter tested for admin, non-admin and anonymous access.<br>
 <sub>.NET · ASP.NET CORE MVC · EF CORE · SQL</sub>
 
 [**Portfolio Manager**](https://github.com/DeVFirmino/AvaloniaPortifolioManager)<br>
 Desktop app for browsing clients, investment portfolios, holdings and transactions — built with Avalonia (a cross-platform take on WinForms/WPF) and EF Core.<br>
 <sub>.NET · AVALONIA · EF CORE · SQL</sub>
+
+[**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics)<br>
+Vehicle telemetry API that computes trip distance from consecutive GPS readings, raises speeding and maintenance-due alerts when a threshold is crossed, and saves each trip log together with any resulting alert in one atomic EF Core transaction.<br>
+<sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
 
 </details>
 
@@ -108,6 +112,10 @@ Desktop app for browsing clients, investment portfolios, holdings and transactio
 [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — a practical Azure Fundamentals study guide focused on understanding the concepts behind the exam, not just memorising answers.
 
 [**kubectl by example**](https://github.com/DeVFirmino/kubectl-by-example) — CKAD preparation in public: imperative kubectl commands one section at a time, with the real output from a disposable kind cluster, each section paired with a blog post.
+
+[**OpenTelemetry in .NET**](https://github.com/DeVFirmino/dotnet-opentelemetry-search) — a deliberately small, one-route ASP.NET Core API built to show what OpenTelemetry records on its own and what it doesn't, paired with a blog post on getting started with OpenTelemetry in .NET.
+
+[**AI Meter**](https://github.com/DeVFirmino/ai-meter) — an ASP.NET Core lab for tracking LLM token usage, estimated cost, failures and latency per team, with a per-team request limit and Grafana dashboards, paired with a blog post on running it.
 
 [**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
 
