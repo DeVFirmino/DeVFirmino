@@ -27,33 +27,17 @@
 ![.NET](https://img.shields.io/badge/.NET-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
 ![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)
-
-**Interfaces used in my projects**
-
-![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
-![Angular](https://img.shields.io/badge/Angular-E8DCC4?style=flat-square&logo=angular&logoColor=26211C)
 ![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-E8DCC4?style=flat-square&logo=tailwindcss&logoColor=26211C)
+![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
 
-**Data**
+**Data & Cloud**
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E8DCC4?style=flat-square&logo=postgresql&logoColor=26211C)
-![Cassandra](https://img.shields.io/badge/Cassandra-E8DCC4?style=flat-square&logo=apachecassandra&logoColor=26211C)
-
-**Cloud**
-
 ![Azure](https://img.shields.io/badge/Azure-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
 ![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C)
-
-**Certified**
-
 ![AZ-900](https://img.shields.io/badge/AZ--900_Certified-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
-
-## Certifications
-
-- **Microsoft Certified: Azure Fundamentals (AZ-900) — 2026**
 
 ## Projects
 
@@ -64,64 +48,55 @@
 
 [**Open live site ↗**](https://maltesetranscriber.mt) · <sub>Source private</sub>
 
-### The build log
-
 [**PayMaestro**](https://github.com/DeVFirmino/PayMaestro)<br>
-A payment orchestration study project exploring decline-aware gateway cascades, completed-outcome replay, fraud screening and audit trails.<br>
+Payment orchestration with decline-aware gateway cascades, completed-outcome replay, fraud screening and audit trails.<br>
 <sub>.NET · ASP.NET CORE · EF CORE · SQL</sub>
 
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting)<br>
-A backend betting study API with wallets, markets and idempotent bet placement, keeping odds and potential winnings under server control, with SQL Server integration tests in CI. [Live API ↗](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html)<br>
-<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE</sub>
+Wallets, markets and idempotent bet placement, with odds and potential winnings kept under server control and SQL Server integration tests in CI. [Live API ↗](https://sportsbetting-api.salmonocean-c68fcbc3.eastus2.azurecontainerapps.io/swagger/index.html)<br>
+<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE — demo scales to zero, so the first request takes ~15s</sub>
 
 [**URL Shortener**](https://github.com/DeVFirmino/UrlShortner)<br>
-A distributed URL shortening service built to handle fast redirects, caching and horizontal scaling across multiple API instances.<br>
+Distributed shortening service built for fast redirects, caching and horizontal scaling across multiple API instances.<br>
 <sub>.NET · REDIS · CASSANDRA · DOCKER</sub>
-
-<sub>The Sports Betting demo scales to zero, so the first request can take around 15 seconds. It is fast after that.</sub>
 
 <details>
 <summary><b>Five more projects</b></summary>
 
 <br>
 
-[**daniel dias**](https://danieldias.dev/en)<br>
-The portfolio you're browsing now — built to bring my projects, technical articles and work as a .NET developer into one place.<br>
+[**daniel dias**](https://danieldias.dev/en) — the portfolio you're browsing now: projects, technical articles and my work as a .NET developer in one place.<br>
 <sub>.NET · RAZOR PAGES · MARKDOWN · DOCKER</sub>
 
-[**Good Hamburger**](https://github.com/DeVFirmino/good-hamburger)<br>
-Order management API with combo discount rules, domain-level category invariants, structured error handling and integration tests.<br>
+[**Good Hamburger**](https://github.com/DeVFirmino/good-hamburger) — order management API with combo discount rules, domain-level invariants and integration tests.<br>
 <sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
 
-[**Book Management**](https://github.com/DeVFirmino/BookManagment)<br>
-ASP.NET Core MVC library lending study project; the admin area sits behind an action filter tested for admin, non-admin and anonymous access.<br>
+[**Book Management**](https://github.com/DeVFirmino/BookManagment) — MVC library lending app whose admin area sits behind an action filter tested for admin, non-admin and anonymous access.<br>
 <sub>.NET · ASP.NET CORE MVC · EF CORE · SQL</sub>
 
-[**Portfolio Manager**](https://github.com/DeVFirmino/AvaloniaPortifolioManager)<br>
-Desktop app for browsing clients, investment portfolios, holdings and transactions — built with Avalonia (a cross-platform take on WinForms/WPF) and EF Core.<br>
+[**Portfolio Manager**](https://github.com/DeVFirmino/AvaloniaPortifolioManager) — desktop app for clients, investment portfolios, holdings and transactions, built with Avalonia and EF Core.<br>
 <sub>.NET · AVALONIA · EF CORE · SQL</sub>
 
-[**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics)<br>
-Vehicle telemetry API that computes trip distance from consecutive GPS readings, raises speeding and maintenance-due alerts when a threshold is crossed, and saves each trip log together with any resulting alert in one atomic EF Core transaction.<br>
+[**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics) — vehicle telemetry API that computes trip distance from GPS readings and writes each trip log with its speeding or maintenance alert in one atomic transaction.<br>
 <sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
 
 </details>
 
 ## Writing
 
-[**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — a practical Azure Fundamentals study guide focused on understanding the concepts behind the exam, not just memorising answers.
+[**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — Azure Fundamentals from the concepts up, not memorised answers.
 
-[**kubectl by example**](https://github.com/DeVFirmino/kubectl-by-example) — CKAD preparation in public: imperative kubectl commands one section at a time, with the real output from a disposable kind cluster, each section paired with a blog post.
+[**kubectl by example**](https://github.com/DeVFirmino/kubectl-by-example) — CKAD prep in public: imperative kubectl commands with real output from a disposable kind cluster.
 
-[**OpenTelemetry in .NET**](https://github.com/DeVFirmino/dotnet-opentelemetry-search) — a deliberately small, one-route ASP.NET Core API built to show what OpenTelemetry records on its own and what it doesn't, paired with a blog post on getting started with OpenTelemetry in .NET.
+[**OpenTelemetry in .NET**](https://github.com/DeVFirmino/dotnet-opentelemetry-search) — a one-route ASP.NET Core API showing what OpenTelemetry records on its own, and what it doesn't.
 
-[**AI Meter**](https://github.com/DeVFirmino/ai-meter) — an ASP.NET Core lab for tracking LLM token usage, estimated cost, failures and latency per team, with a per-team request limit and Grafana dashboards, paired with a blog post on running it.
+[**AI Meter**](https://github.com/DeVFirmino/ai-meter) — ASP.NET Core lab tracking LLM token usage, cost, failures and latency per team, with request limits and Grafana dashboards.
 
-[**Blog**](https://danieldias.dev/en/blog) — I share ideas and articles on .NET, Azure and system design, available in English, Portuguese, Italian, French and Maltese.
+[**Blog**](https://danieldias.dev/en/blog) — .NET, Azure and system design, in English, Portuguese, Italian, French and Maltese.
 
 ## Say hello
 
-I’m open to backend .NET roles and freelance projects involving APIs and integrations.
+I'm open to backend .NET roles and freelance projects involving APIs and integrations.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
