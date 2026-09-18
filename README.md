@@ -27,13 +27,20 @@
 ![.NET](https://img.shields.io/badge/.NET-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
 ![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)
+
+**Frontend**
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C)
 ![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
 
-**Data & Cloud**
+**Data**
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E8DCC4?style=flat-square&logo=postgresql&logoColor=26211C)
+![Redis](https://img.shields.io/badge/Redis-E8DCC4?style=flat-square&logo=redis&logoColor=26211C)
+
+**Cloud & CI**
+
 ![Azure](https://img.shields.io/badge/Azure-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
 ![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C)
@@ -84,13 +91,28 @@ Distributed shortening service built for fast redirects, caching and horizontal 
 
 ## Writing
 
+<a href="https://github.com/DeVFirmino/kubectl-by-example">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-kubectl-dark.svg">
+    <img src="assets/card-kubectl-light.svg" alt="kubectl by example — imperative kubectl commands, one CKAD section at a time, each run on a throwaway kind cluster with the real output and the YAML that a dry run generates. Kubernetes, kubectl, CKAD." width="100%">
+  </picture>
+</a>
+
+<a href="https://github.com/DeVFirmino/dotnet-opentelemetry-search">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-otel-dark.svg">
+    <img src="assets/card-otel-light.svg" alt="OpenTelemetry demo — a one-route ASP.NET Core API built to show what OpenTelemetry records on its own across traces, metrics and logs, and the one attribute the application has to declare itself. .NET, ASP.NET Core, OpenTelemetry." width="100%">
+  </picture>
+</a>
+
+<a href="https://github.com/DeVFirmino/ai-meter">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-ai-meter-dark.svg">
+    <img src="assets/card-ai-meter-light.svg" alt="AI Meter — an ASP.NET Core lab that meters LLM token usage, estimated cost, failures and latency per team with OpenTelemetry and Grafana, and gives each team its own request quota. .NET, OpenTelemetry, Grafana, AI." width="100%">
+  </picture>
+</a>
+
 [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — Azure Fundamentals from the concepts up, not memorised answers.
-
-[**kubectl by example**](https://github.com/DeVFirmino/kubectl-by-example) — CKAD prep in public: imperative kubectl commands with real output from a disposable kind cluster.
-
-[**OpenTelemetry in .NET**](https://github.com/DeVFirmino/dotnet-opentelemetry-search) — a one-route ASP.NET Core API showing what OpenTelemetry records on its own, and what it doesn't.
-
-[**AI Meter**](https://github.com/DeVFirmino/ai-meter) — ASP.NET Core lab tracking LLM token usage, cost, failures and latency per team, with request limits and Grafana dashboards.
 
 [**Blog**](https://danieldias.dev/en/blog) — .NET, Azure and system design, in English, Portuguese, Italian, French and Maltese.
 
