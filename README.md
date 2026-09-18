@@ -93,22 +93,22 @@ Distributed shortening service built for fast redirects, caching and horizontal 
 
 <a href="https://github.com/DeVFirmino/kubectl-by-example">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-kubectl-dark.svg">
-    <img src="assets/card-kubectl-light.svg" alt="kubectl by example — imperative kubectl commands, one CKAD section at a time, each run on a throwaway kind cluster with the real output and the YAML that a dry run generates. Kubernetes, kubectl, CKAD." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-kubectl-dark.png">
+    <img src="assets/card-kubectl-light.png" alt="kubectl by example — imperative kubectl commands, one CKAD section at a time, each run on a throwaway kind cluster with the real output and the YAML that a dry run generates. Kubernetes, kubectl, CKAD." width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/DeVFirmino/dotnet-opentelemetry-search">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-otel-dark.svg">
-    <img src="assets/card-otel-light.svg" alt="OpenTelemetry demo — a one-route ASP.NET Core API built to show what OpenTelemetry records on its own across traces, metrics and logs, and the one attribute the application has to declare itself. .NET, ASP.NET Core, OpenTelemetry." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-otel-dark.png">
+    <img src="assets/card-otel-light.png" alt="OpenTelemetry demo — a one-route ASP.NET Core API built to show what OpenTelemetry records on its own across traces, metrics and logs, and the one attribute the application has to declare itself. .NET, ASP.NET Core, OpenTelemetry." width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/DeVFirmino/ai-meter">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-ai-meter-dark.svg">
-    <img src="assets/card-ai-meter-light.svg" alt="AI Meter — an ASP.NET Core lab that meters LLM token usage, estimated cost, failures and latency per team with OpenTelemetry and Grafana, and gives each team its own request quota. .NET, OpenTelemetry, Grafana, AI." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-ai-meter-dark.png">
+    <img src="assets/card-ai-meter-light.png" alt="AI Meter — an ASP.NET Core lab that meters LLM token usage, estimated cost, failures and latency per team with OpenTelemetry and Grafana, and gives each team its own request quota. .NET, OpenTelemetry, Grafana, AI." width="100%">
   </picture>
 </a>
 
