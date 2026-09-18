@@ -116,7 +116,7 @@ Distributed shortening service built for fast redirects, caching and horizontal 
 
 [**Blog**](https://danieldias.dev/en/blog) — .NET, Azure and system design, in English, Portuguese, Italian, French and Maltese.
 
-## Say hello
+## Contact
 
 I'm open to backend .NET roles and freelance projects involving APIs and integrations.
 
