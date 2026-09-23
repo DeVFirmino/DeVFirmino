@@ -51,7 +51,7 @@
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) [![CI](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml)<br>
 Study API in .NET 10 for one betting flow: deposit, choose a fixture, place a bet. The wallet debit and the bet commit together, a `rowversion` stops two requests spending the same balance, and a repeated idempotency key never debits twice.<br>
 Tests: [concurrent bets against real SQL Server](https://github.com/DeVFirmino/SportsBetting/blob/develop/tests/Integration.Test/PlaceBetUseCaseTests.cs)<br>
-<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE — deployed by hand to Azure Container Apps with Azure SQL in September 2026, not kept online · [deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)</sub>
+<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE — deployed by hand to Azure Container Apps with Azure SQL in September 2026 · [Live API](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html), scales to zero · [deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)</sub>
 
 [**PayMaestro**](https://github.com/DeVFirmino/PayMaestro) [![CI](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml)<br>
 Study project: one API in front of several simulated payment gateways. It reserves the idempotency key before any gateway call, moves to the next gateway on a soft decline, stops on a hard decline or a charge with no answer, and reconciles that charge with the provider instead of charging again.<br>
