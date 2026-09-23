@@ -12,6 +12,8 @@
   <img src="assets/lead-light.svg" alt=".NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="518">
 </picture>
 
+Software developer focused on backend .NET. I build APIs and run the live projects below.
+
 </div>
 
 <picture>
@@ -28,11 +30,6 @@
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
 ![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)
 
-**Frontend**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C)
-![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
-
 **Data**
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C)
@@ -46,6 +43,11 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C)
 ![AZ-900](https://img.shields.io/badge/AZ--900_Certified-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
 
+**Interfaces in my projects**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C)
+![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
+
 ## Projects
 
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) [![CI](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml)<br>
@@ -58,24 +60,25 @@ Study project: one API in front of several simulated payment gateways. It reserv
 Tests: [idempotency race](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/IdempotencyReservationTests.cs) · [reconciliation](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/ReconciliationTests.cs)<br>
 <sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
 
+[**danieldias.dev**](https://danieldias.dev/en)<br>
+The .NET site I build and run, with a blog in five languages. A local tool turns a draft into five language editions and validates each one before it opens a pull request. CI audits the dependencies, and the metrics endpoint sits behind a token.<br>
+<sub>.NET · RAZOR PAGES · MARKDOWN · DOCKER · Source private</sub>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/card-maltese-dark.png">
-  <img src="assets/card-maltese-light.png" alt="Maltese Transcriber — flagship, live product. Live Maltese-to-English transcription for people trying to better understand everyday conversations. .NET, TypeScript, React, SignalR." width="100%">
+  <img src="assets/card-maltese-light.png" alt="Maltese Transcriber, featured, live portfolio project. Live Maltese-to-English transcription for people trying to better understand everyday conversations. .NET, TypeScript, React, SignalR." width="100%">
 </picture>
 
 [**Open live site ↗**](https://maltesetranscriber.mt) · <sub>Source private</sub>
 
 [**URL Shortener**](https://github.com/DeVFirmino/UrlShortner)<br>
-Distributed shortening service built for fast redirects, caching and horizontal scaling across multiple API instances.<br>
+Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassandra and collision handling for short codes, all started with one Docker Compose command.<br>
 <sub>.NET · REDIS · CASSANDRA · DOCKER</sub>
 
 <details>
-<summary><b>Five more projects</b></summary>
+<summary><b>Four more projects</b></summary>
 
 <br>
-
-[**daniel dias**](https://danieldias.dev/en) — the portfolio you're browsing now: projects, technical articles and my work as a .NET developer in one place.<br>
-<sub>.NET · RAZOR PAGES · MARKDOWN · DOCKER</sub>
 
 [**Good Hamburger**](https://github.com/DeVFirmino/good-hamburger) — order management API with combo discount rules, domain-level invariants and integration tests.<br>
 <sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
