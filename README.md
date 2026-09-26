@@ -53,11 +53,16 @@ Software developer focused on backend .NET. I build APIs and run the live projec
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) [![CI](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml)<br>
 API in .NET 10 for one betting flow: deposit, choose a fixture, place a bet. The wallet debit and the bet commit together, a `rowversion` stops two requests spending the same balance, and a repeated idempotency key never debits twice.<br>
 Tests: [concurrent bets against real SQL Server](https://github.com/DeVFirmino/SportsBetting/blob/develop/tests/Integration.Test/PlaceBetUseCaseTests.cs)<br>
-<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE — deployed by hand to Azure Container Apps with Azure SQL in September 2026 · [Live API](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html), scales to zero · [deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)</sub>
+<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE · Deployed by hand to Azure Container Apps with Azure SQL in September 2026 · [Live API](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html), scales to zero · [deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)</sub>
 
 [**PayMaestro**](https://github.com/DeVFirmino/PayMaestro) [![CI](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml)<br>
 One API in front of several simulated payment gateways. It reserves the idempotency key before any gateway call, moves to the next gateway on a soft decline, stops on a hard decline or a charge with no answer, and reconciles that charge with the provider instead of charging again.<br>
 Tests: [idempotency race](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/IdempotencyReservationTests.cs) · [reconciliation](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/ReconciliationTests.cs)<br>
+<sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
+
+[**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics)<br>
+Vehicle telemetry API. Each GPS reading adds the distance driven to the odometer and raises an alert when the vehicle speeds or is due for a service. The reading, its alerts and the odometer update commit in one transaction.<br>
+Tests: [a failure after the alert is staged saves nothing](https://github.com/DeVFirmino/FleetAnalytics/blob/master/tests/FleetAnalytics.Tests/Services/TripLogIngestionAtomicityTests.cs)<br>
 <sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
 
 [**danieldias.dev**](https://danieldias.dev/en)<br>
@@ -76,21 +81,18 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 <sub>.NET · REDIS · CASSANDRA · DOCKER</sub>
 
 <details>
-<summary><b>Four more projects</b></summary>
+<summary><b>Three more projects</b></summary>
 
 <br>
 
 [**Good Hamburger**](https://github.com/DeVFirmino/good-hamburger) — order management API with combo discount rules, domain-level invariants and integration tests.<br>
 <sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
 
-[**Book Management**](https://github.com/DeVFirmino/BookManagment) — MVC library lending app whose admin area sits behind an action filter tested for admin, non-admin and anonymous access.<br>
+[**Book Management**](https://github.com/DeVFirmino/BookManagment) — MVC library lending app. Session action filters keep clients out of the admin pages, and only an administrator can open the client list. That last filter is tested for an administrator, a client and a visitor with no session.<br>
 <sub>.NET · ASP.NET CORE MVC · EF CORE · SQL</sub>
 
 [**Portfolio Manager**](https://github.com/DeVFirmino/AvaloniaPortifolioManager) — desktop app for clients, investment portfolios, holdings and transactions, built with Avalonia and EF Core.<br>
 <sub>.NET · AVALONIA · EF CORE · SQL</sub>
-
-[**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics) — vehicle telemetry API that computes trip distance from GPS readings and writes each trip log with its speeding or maintenance alert in one atomic transaction.<br>
-<sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
 
 </details>
 
