@@ -17,6 +17,6 @@ jobs:
         with:
           feed_list: "https://danieldias.dev/en/blog/feed.xml"
           max_post_count: 5
-          template: "- [$title]($url) · $date $newline"
+          template: "$newline- [$title]($url) · $date"
           date_format: "mmm yyyy"
           commit_message: "Update the latest blog posts"
