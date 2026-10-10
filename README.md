@@ -50,20 +50,38 @@ Software developer focused on backend .NET. I build APIs and run the live projec
 
 ## Projects
 
+<table><tr>
+<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/SportsBetting"><img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="100%"></a></td>
+<td valign="top">
+
 [**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) [![CI](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml)<br>
 API in .NET 10 for one betting flow: deposit, choose a fixture, place a bet. The wallet debit and the bet commit together, a `rowversion` stops two requests spending the same balance, and a repeated idempotency key never debits twice.<br>
 Tests: [concurrent bets against real SQL Server](https://github.com/DeVFirmino/SportsBetting/blob/develop/tests/Integration.Test/PlaceBetUseCaseTests.cs)<br>
 <sub>.NET · ASP.NET CORE · SQL SERVER · AZURE · Deployed by hand to Azure Container Apps with Azure SQL in September 2026 · [Live API](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html), scales to zero · [deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)</sub>
+
+</td></tr></table>
+
+<table><tr>
+<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/PayMaestro"><img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="100%"></a></td>
+<td valign="top">
 
 [**PayMaestro**](https://github.com/DeVFirmino/PayMaestro) [![CI](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml)<br>
 One API in front of several simulated payment gateways. It reserves the idempotency key before any gateway call, moves to the next gateway on a soft decline, stops on a hard decline or a charge with no answer, and reconciles that charge with the provider instead of charging again.<br>
 Tests: [idempotency race](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/IdempotencyReservationTests.cs) · [reconciliation](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/ReconciliationTests.cs)<br>
 <sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
 
+</td></tr></table>
+
+<table><tr>
+<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/FleetAnalytics"><img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="100%"></a></td>
+<td valign="top">
+
 [**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics)<br>
 Vehicle telemetry API. Each GPS reading adds the distance driven to the odometer and raises an alert when the vehicle speeds or is due for a service. The reading, its alerts and the odometer update commit in one transaction.<br>
 Tests: [a failure after the alert is staged saves nothing](https://github.com/DeVFirmino/FleetAnalytics/blob/master/tests/FleetAnalytics.Tests/Services/TripLogIngestionAtomicityTests.cs)<br>
 <sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
+
+</td></tr></table>
 
 [**danieldias.dev**](https://danieldias.dev/en)<br>
 The .NET site I build and run, with a blog in five languages. A local tool turns a draft into five language editions and validates each one before it opens a pull request. CI audits the dependencies, and the metrics endpoint sits behind a token.<br>
@@ -74,11 +92,23 @@ The .NET site I build and run, with a blog in five languages. A local tool turns
   <img src="assets/card-maltese-light.png" alt="Maltese Transcriber, featured, live portfolio project. Live Maltese-to-English transcription for people trying to better understand everyday conversations. .NET, TypeScript, React, SignalR." width="100%">
 </picture>
 
+<table><tr>
+<td width="45%" valign="top"><a href="https://maltesetranscriber.mt"><img src="assets/how-it-works/maltesetranscriber.gif" alt="Animation: Maltese speech becomes live text, each finished phrase is translated into English, and both show side by side." width="100%"></a></td>
+<td valign="top">
+
 [**Open live site ↗**](https://maltesetranscriber.mt) · <sub>Source private</sub>
+
+</td></tr></table>
+
+<table><tr>
+<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/UrlShortner"><img src="assets/how-it-works/urlshortner.gif" alt="Animation: a long link becomes a short one, you send it to a friend and they land on the original page." width="100%"></a></td>
+<td valign="top">
 
 [**URL Shortener**](https://github.com/DeVFirmino/UrlShortner) [![CI](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml)<br>
 Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassandra and collision handling for short codes, all started with one Docker Compose command.<br>
 <sub>.NET · REDIS · CASSANDRA · DOCKER</sub>
+
+</td></tr></table>
 
 <details>
 <summary><b>Three more projects</b></summary>
