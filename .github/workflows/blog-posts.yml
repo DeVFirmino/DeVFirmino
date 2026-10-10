@@ -1,0 +1,22 @@
+name: Latest blog posts
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://danieldias.dev/en/blog/feed.xml"
+          max_post_count: 5
+          template: "- [$title]($url) · $date $newline"
+          date_format: "mmm yyyy"
+          commit_message: "Update the latest blog posts"
