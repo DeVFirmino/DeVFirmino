@@ -104,12 +104,12 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 
 **Latest posts**
 
-<!-- BLOG-POST-LIST:START -->- [Half a million small databases: how Brazil counts 125 million votes in one night](https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night) · Oct 2026 
-- [How troubleshooting changed from the 1950s to 2026](https://danieldias.dev/en/blog/troubleshooting-from-the-1950s-to-2026) · Oct 2026 
-- [Azure Cosmos DB for RAG: benefits and when to choose it over a relational database](https://danieldias.dev/en/blog/azure-cosmos-db-for-rag-benefits-and-when-to-choose-it) · Sep 2026 
-- [Kubernetes taints and tolerations explained with a theme park](https://danieldias.dev/en/blog/kubernetes-taints-and-tolerations) · Sep 2026 
-- [When the LLM gets lost, ask it to update the harness](https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness) · Sep 2026 
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- [Half a million small databases: how Brazil counts 125 million votes in one night](https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night) · Oct 2026
+- [How troubleshooting changed from the 1950s to 2026](https://danieldias.dev/en/blog/troubleshooting-from-the-1950s-to-2026) · Oct 2026
+- [Azure Cosmos DB for RAG: benefits and when to choose it over a relational database](https://danieldias.dev/en/blog/azure-cosmos-db-for-rag-benefits-and-when-to-choose-it) · Sep 2026
+- [Kubernetes taints and tolerations explained with a theme park](https://danieldias.dev/en/blog/kubernetes-taints-and-tolerations) · Sep 2026
+- [When the LLM gets lost, ask it to update the harness](https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness) · Sep 2026<!-- BLOG-POST-LIST:END -->
 
 **Code that goes with the posts**
 
