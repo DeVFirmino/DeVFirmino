@@ -96,7 +96,23 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 
 </details>
 
-## Writing
+## Blog
+
+<!-- Animated banner goes here once Claude Design delivers it -->
+
+.NET, Azure, AI and system design, in English, Portuguese, Italian, French and Maltese. [Read the blog ↗](https://danieldias.dev/en/blog) · [RSS](https://danieldias.dev/en/blog/feed.xml)
+
+**Latest posts**
+
+<!-- BLOG-POST-LIST:START -->
+- [Half a million small databases: how Brazil counts 125 million votes in one night](https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night) · Oct 2026
+- [How troubleshooting changed from the 1950s to 2026](https://danieldias.dev/en/blog/troubleshooting-from-the-1950s-to-2026) · Oct 2026
+- [Azure Cosmos DB for RAG: benefits and when to choose it over a relational database](https://danieldias.dev/en/blog/azure-cosmos-db-for-rag-benefits-and-when-to-choose-it) · Sep 2026
+- [Kubernetes taints and tolerations explained with a theme park](https://danieldias.dev/en/blog/kubernetes-taints-and-tolerations) · Sep 2026
+- [When the LLM gets lost, ask it to update the harness](https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness) · Sep 2026
+<!-- BLOG-POST-LIST:END -->
+
+**Code that goes with the posts**
 
 <a href="https://github.com/DeVFirmino/kubectl-by-example">
   <picture>
@@ -119,9 +135,9 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
   </picture>
 </a>
 
-[**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — Azure Fundamentals from the concepts up, not memorised answers.
+[**LLM harness example**](https://github.com/DeVFirmino/llm-harness-example) — the files an LLM reads before it answers, kept in a repository and updated by review. Goes with [When the LLM gets lost, ask it to update the harness](https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness).
 
-[**Blog**](https://danieldias.dev/en/blog) — .NET, Azure and system design, in English, Portuguese, Italian, French and Maltese.
+[**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — Azure Fundamentals from the concepts up, not memorised answers. Goes with [How I passed AZ-900](https://danieldias.dev/en/blog/how-i-passed-az-900).
 
 ## Contact
 
