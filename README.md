@@ -98,7 +98,7 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 
 ## Blog
 
-<!-- Animated banner goes here once Claude Design delivers it -->
+<a href="https://danieldias.dev/en/blog"><img src="assets/blog-banner.gif" alt="Dani Bot types a post, it rises out of his laptop and fans out into English, Portuguese, Italian, French and Maltese editions, and a done seal lands on the stack." width="100%"></a>
 
 .NET, Azure, AI and system design, in English, Portuguese, Italian, French and Maltese. [Read the blog ↗](https://danieldias.dev/en/blog) · [RSS](https://danieldias.dev/en/blog/feed.xml)
 
