@@ -88,9 +88,12 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 
 My site and blog, in five languages.
 
-The .NET site I build and run. A local tool turns a draft into five language editions and validates each one before it opens a pull request. CI audits the dependencies, and the metrics endpoint sits behind a token.<br>
-[Live site ↗](https://danieldias.dev/en) · Source private<br>
-<sub>.NET · RAZOR PAGES · MARKDOWN · DOCKER</sub>
+<a href="https://danieldias.dev/en"><picture>
+  <source media="(max-width: 600px)" srcset="assets/danieldias-dev-phone.svg">
+  <img src="assets/danieldias-dev.svg" alt="danieldias.dev, live, you're here. I build and run this site. A local tool turns a draft into five language editions and validates each one before it opens a pull request. CI audits the dependencies, and the metrics endpoint sits behind a token. .NET, Razor Pages, Markdown, Docker. Beside it, Dani Bot's note: copilot, AI. Dani Bot is part of this site too: an AI copilot that researches with me, reviews what I write and translates it." width="100%">
+</picture></a>
+
+[Live site ↗](https://danieldias.dev/en) · Source private
 
 <details>
 <summary><b>Three more projects</b></summary>
