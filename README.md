@@ -151,18 +151,13 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 
 ## Contact
 
-<p>
+<img align="right" src="assets/dani-bot-wave-light.gif#gh-light-mode-only" alt="Dani Bot waving hello." height="150">
+<img align="right" src="assets/dani-bot-wave-dark.gif#gh-dark-mode-only" alt="Dani Bot waving hello." height="150">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
   <img src="assets/open-to-work-light.png" alt="Open to software roles, freelance projects and collaborations." width="470">
 </picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/dani-bot-wave-dark-still.png">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/dani-bot-wave-light-still.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dani-bot-wave-dark.gif">
-  <img src="assets/dani-bot-wave-light.gif" alt="Dani Bot waving hello." height="96">
-</picture>
-</p>
 
 [<img src="assets/cta-linkedin.png" alt="LinkedIn" height="32">](https://www.linkedin.com/in/daniel-dias-504168113/)
 [<img src="assets/cta-email.png" alt="Email" height="32">](mailto:daanspfc@gmail.com)
