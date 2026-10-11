@@ -16,10 +16,6 @@ Software developer focused on backend .NET. I build APIs and run the live projec
 
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/credentials-dark.png">
-  <img src="assets/credentials-light.png" alt="Education: Technology Degree in Systems Analysis and Development (UniFatecie, Brazil, QQI Level 6); Higher Diploma in Computing (SETU, Ireland, QQI Level 7). Languages spoken: PT, EN, IT, FR (A2)." width="100%">
-</picture>
 
 ## Projects
 
@@ -121,7 +117,10 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 
 .NET, Azure, AI and system design, in English, Portuguese, Italian, French and Maltese. [Read the blog ↗](https://danieldias.dev/en/blog) · [RSS](https://danieldias.dev/en/blog/feed.xml)
 
-**Latest posts**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/latest-articles-dark.svg">
+  <img src="assets/latest-articles-light.svg" alt="Latest articles, from the blog." width="440">
+</picture>
 
 <!-- BLOG-POST-LIST:START -->
 - [Half a million small databases: how Brazil counts 125 million votes in one night](https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night) · Oct 2026
@@ -140,10 +139,15 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 
 ## Tech
 
-**Backend** ![C#](https://img.shields.io/badge/C%23-E8DCC4?style=flat-square&logo=csharp&logoColor=26211C) ![.NET](https://img.shields.io/badge/.NET-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C) ![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)<br>
-**Data** ![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E8DCC4?style=flat-square&logo=postgresql&logoColor=26211C) ![Redis](https://img.shields.io/badge/Redis-E8DCC4?style=flat-square&logo=redis&logoColor=26211C)<br>
-**Cloud & CI** ![Azure](https://img.shields.io/badge/Azure-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C) ![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C) ![AZ-900](https://img.shields.io/badge/AZ--900_Certified-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)<br>
-**Interfaces in my projects** ![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C) ![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/tech-phone.svg">
+  <img src="assets/tech.svg" alt="Tech. Backend: C#, .NET, ASP.NET Core, EF Core. Data: SQL Server, PostgreSQL, Redis. Cloud and delivery: Azure, Docker, GitHub Actions. Frontend in my projects: TypeScript, React. AI and agents: OpenAI, Microsoft.Extensions.AI, OpenTelemetry, Speechmatics, MCP, Claude Code, AGENTS.md." width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/credentials-card.svg">
+  <img src="assets/credentials-wide.svg" alt="Education and certification: Higher Diploma in Computing, SETU, Ireland, QQI Level 7; Technology Degree in Systems Analysis and Development, UniFatecie, Brazil, QQI Level 6; Microsoft Certified: Azure Fundamentals (AZ-900). Languages: Portuguese, English, Italian, French (A2)." width="100%">
+</picture>
 
 ## Contact
 
