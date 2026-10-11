@@ -21,94 +21,80 @@ Software developer focused on backend .NET. I build APIs and run the live projec
   <img src="assets/credentials-light.png" alt="Education: Technology Degree in Systems Analysis and Development (UniFatecie, Brazil, QQI Level 6); Higher Diploma in Computing (SETU, Ireland, QQI Level 7). Languages spoken: PT, EN, IT, FR (A2)." width="100%">
 </picture>
 
-## Tech
-
-**Backend**
-
-![C#](https://img.shields.io/badge/C%23-E8DCC4?style=flat-square&logo=csharp&logoColor=26211C)
-![.NET](https://img.shields.io/badge/.NET-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C)
-![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)
-
-**Data**
-
-![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E8DCC4?style=flat-square&logo=postgresql&logoColor=26211C)
-![Redis](https://img.shields.io/badge/Redis-E8DCC4?style=flat-square&logo=redis&logoColor=26211C)
-
-**Cloud & CI**
-
-![Azure](https://img.shields.io/badge/Azure-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
-![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C)
-![AZ-900](https://img.shields.io/badge/AZ--900_Certified-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)
-
-**Interfaces in my projects**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C)
-![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
-
 ## Projects
 
-<table><tr>
-<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/SportsBetting"><img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="100%"></a></td>
-<td valign="top">
+### [Maltese Transcriber](https://maltesetranscriber.mt)
 
-[**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) [![CI](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml)<br>
+Follow a conversation in Maltese as it happens: the Maltese appears while people speak, with the English beside each phrase.
+
+<a href="https://maltesetranscriber.mt"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/maltesetranscriber-still.png">
+  <img src="assets/how-it-works/maltesetranscriber.gif" alt="Animation: Maltese speech becomes live text, each finished phrase is translated into English, and both show side by side." width="420">
+</picture></a>
+
+Live product. The browser streams short audio chunks over SignalR to a .NET server; Speechmatics writes the Maltese and OpenAI translates each finished phrase.<br>
+[Live site ↗](https://maltesetranscriber.mt) · Source private<br>
+<sub>.NET · TYPESCRIPT · REACT · SIGNALR</sub>
+
+### [Sports Betting API](https://github.com/DeVFirmino/SportsBetting) [![CI](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml)
+
+Tap Bet twice by accident and you are charged once, and two bets at the same moment can't spend the same balance.
+
+<a href="https://github.com/DeVFirmino/SportsBetting"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/sportsbetting-still.png">
+  <img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="420">
+</picture></a>
+
 API in .NET 10 for one betting flow: deposit, choose a fixture, place a bet. The wallet debit and the bet commit together, a `rowversion` stops two requests spending the same balance, and a repeated idempotency key never debits twice.<br>
-Tests: [concurrent bets against real SQL Server](https://github.com/DeVFirmino/SportsBetting/blob/develop/tests/Integration.Test/PlaceBetUseCaseTests.cs)<br>
-<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE · Deployed by hand to Azure Container Apps with Azure SQL in September 2026 · [Live API](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html), scales to zero · [deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)</sub>
+[Live API ↗](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html) (scales to zero) · [Source](https://github.com/DeVFirmino/SportsBetting) · Tests: [concurrent bets against real SQL Server](https://github.com/DeVFirmino/SportsBetting/blob/develop/tests/Integration.Test/PlaceBetUseCaseTests.cs) · [Deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)<br>
+<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE · Deployed by hand to Azure Container Apps with Azure SQL in September 2026</sub>
 
-</td></tr></table>
+### [PayMaestro](https://github.com/DeVFirmino/PayMaestro) [![CI](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml)
 
-<table><tr>
-<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/PayMaestro"><img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="100%"></a></td>
-<td valign="top">
+When one payment provider says no, it tries the next one, and you are never charged twice.
 
-[**PayMaestro**](https://github.com/DeVFirmino/PayMaestro) [![CI](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml)<br>
-One API in front of several simulated payment gateways. It reserves the idempotency key before any gateway call, moves to the next gateway on a soft decline, stops on a hard decline or a charge with no answer, and reconciles that charge with the provider instead of charging again.<br>
-Tests: [idempotency race](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/IdempotencyReservationTests.cs) · [reconciliation](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/ReconciliationTests.cs)<br>
-<sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
+<a href="https://github.com/DeVFirmino/PayMaestro"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/paymaestro-still.png">
+  <img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="420">
+</picture></a>
 
-</td></tr></table>
+One API in front of several simulated payment gateways. It reserves the idempotency key before calling any gateway and moves to the next gateway on a soft decline. It stops on a hard decline, and when a charge gets no answer it checks that charge with the provider instead of charging again.<br>
+[Source](https://github.com/DeVFirmino/PayMaestro) · Tests: [idempotency race](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/IdempotencyReservationTests.cs) · [reconciliation](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/ReconciliationTests.cs)<br>
+<sub>.NET · ASP.NET CORE · EF CORE · SQLITE · Simulated providers, no real money</sub>
 
-<table><tr>
-<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/FleetAnalytics"><img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="100%"></a></td>
-<td valign="top">
+### [Fleet Analytics](https://github.com/DeVFirmino/FleetAnalytics)
 
-[**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics)<br>
+Vans report where they are as they drive; the kilometres add up, and speeding goes on the van's record.
+
+<a href="https://github.com/DeVFirmino/FleetAnalytics"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/fleetanalytics-still.png">
+  <img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="420">
+</picture></a>
+
 Vehicle telemetry API. Each GPS reading adds the distance driven to the odometer and raises an alert when the vehicle speeds or is due for a service. The reading, its alerts and the odometer update commit in one transaction.<br>
-Tests: [a failure after the alert is staged saves nothing](https://github.com/DeVFirmino/FleetAnalytics/blob/master/tests/FleetAnalytics.Tests/Services/TripLogIngestionAtomicityTests.cs)<br>
+[Source](https://github.com/DeVFirmino/FleetAnalytics) · Tests: [a failure after the alert is staged saves nothing](https://github.com/DeVFirmino/FleetAnalytics/blob/master/tests/FleetAnalytics.Tests/Services/TripLogIngestionAtomicityTests.cs)<br>
 <sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
 
-</td></tr></table>
+### [URL Shortener](https://github.com/DeVFirmino/UrlShortner) [![CI](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml)
 
-[**danieldias.dev**](https://danieldias.dev/en)<br>
-The .NET site I build and run, with a blog in five languages. A local tool turns a draft into five language editions and validates each one before it opens a pull request. CI audits the dependencies, and the metrics endpoint sits behind a token.<br>
-<sub>.NET · RAZOR PAGES · MARKDOWN · DOCKER · Source private</sub>
+Turns a long link into a short one that opens the right page for whoever taps it.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-maltese-dark.png">
-  <img src="assets/card-maltese-light.png" alt="Maltese Transcriber, featured, live portfolio project. Live Maltese-to-English transcription for people trying to better understand everyday conversations. .NET, TypeScript, React, SignalR." width="100%">
-</picture>
+<a href="https://github.com/DeVFirmino/UrlShortner"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/urlshortner-still.png">
+  <img src="assets/how-it-works/urlshortner.gif" alt="Animation: a long link becomes a short one, you send it to a friend and they land on the original page." width="420">
+</picture></a>
 
-<table><tr>
-<td width="45%" valign="top"><a href="https://maltesetranscriber.mt"><img src="assets/how-it-works/maltesetranscriber.gif" alt="Animation: Maltese speech becomes live text, each finished phrase is translated into English, and both show side by side." width="100%"></a></td>
-<td valign="top">
-
-[**Open live site ↗**](https://maltesetranscriber.mt) · <sub>Source private</sub>
-
-</td></tr></table>
-
-<table><tr>
-<td width="45%" valign="top"><a href="https://github.com/DeVFirmino/UrlShortner"><img src="assets/how-it-works/urlshortner.gif" alt="Animation: a long link becomes a short one, you send it to a friend and they land on the original page." width="100%"></a></td>
-<td valign="top">
-
-[**URL Shortener**](https://github.com/DeVFirmino/UrlShortner) [![CI](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml)<br>
 Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassandra and collision handling for short codes, all started with one Docker Compose command.<br>
+[Source](https://github.com/DeVFirmino/UrlShortner)<br>
 <sub>.NET · REDIS · CASSANDRA · DOCKER</sub>
 
-</td></tr></table>
+### [danieldias.dev](https://danieldias.dev/en)
+
+My site and blog, in five languages.
+
+The .NET site I build and run. A local tool turns a draft into five language editions and validates each one before it opens a pull request. CI audits the dependencies, and the metrics endpoint sits behind a token.<br>
+[Live site ↗](https://danieldias.dev/en) · Source private<br>
+<sub>.NET · RAZOR PAGES · MARKDOWN · DOCKER</sub>
 
 <details>
 <summary><b>Three more projects</b></summary>
@@ -128,7 +114,10 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 
 ## Blog
 
-<a href="https://danieldias.dev/en/blog"><img src="assets/blog-banner.gif" alt="Dani Bot types a post, it rises out of his laptop and fans out into English, Portuguese, Italian, French and Maltese editions, and a done seal lands on the stack." width="100%"></a>
+<a href="https://danieldias.dev/en/blog"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/blog-banner-still.png">
+  <img src="assets/blog-banner.gif" alt="Dani Bot types a post, it rises out of his laptop and fans out into English, Portuguese, Italian, French and Maltese editions, and a done seal lands on the stack." width="100%">
+</picture></a>
 
 .NET, Azure, AI and system design, in English, Portuguese, Italian, French and Maltese. [Read the blog ↗](https://danieldias.dev/en/blog) · [RSS](https://danieldias.dev/en/blog/feed.xml)
 
@@ -143,34 +132,20 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 
 **Code that goes with the posts**
 
-<a href="https://github.com/DeVFirmino/kubectl-by-example">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-kubectl-dark.png">
-    <img src="assets/card-kubectl-light.png" alt="kubectl by example — imperative kubectl commands, one CKAD section at a time, each run on a throwaway kind cluster with the real output and the YAML that a dry run generates. Kubernetes, kubectl, CKAD." width="100%">
-  </picture>
-</a>
+- [**kubectl by example**](https://github.com/DeVFirmino/kubectl-by-example): imperative kubectl commands, one CKAD section at a time, each run on a throwaway kind cluster with the real output. Goes with [kubectl by example, part 1: pods](https://danieldias.dev/en/blog/kubectl-by-example-part-1-pods).
+- [**OpenTelemetry demo**](https://github.com/DeVFirmino/dotnet-opentelemetry-search): a one-route ASP.NET Core API that shows what OpenTelemetry records on its own. Goes with [OpenTelemetry in .NET](https://danieldias.dev/en/blog/opentelemetry-in-dotnet).
+- [**AI Meter**](https://github.com/DeVFirmino/ai-meter): LLM token usage, estimated cost and latency per team, with a request quota for each team. Goes with [AI Meter: run a lab for LLM usage, estimated cost and team limits](https://danieldias.dev/en/blog/ai-meter-usage-and-cost-per-team).
+- [**LLM harness example**](https://github.com/DeVFirmino/llm-harness-example): the files an LLM reads before it answers, kept in a repository and updated by review. Goes with [When the LLM gets lost, ask it to update the harness](https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness).
+- [**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies): Azure Fundamentals from the concepts up, not memorised answers. Goes with [How I passed AZ-900](https://danieldias.dev/en/blog/how-i-passed-az-900).
 
-<a href="https://github.com/DeVFirmino/dotnet-opentelemetry-search">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-otel-dark.png">
-    <img src="assets/card-otel-light.png" alt="OpenTelemetry demo — a one-route ASP.NET Core API built to show what OpenTelemetry records on its own across traces, metrics and logs, and the one attribute the application has to declare itself. .NET, ASP.NET Core, OpenTelemetry." width="100%">
-  </picture>
-</a>
+## Tech
 
-<a href="https://github.com/DeVFirmino/ai-meter">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-ai-meter-dark.png">
-    <img src="assets/card-ai-meter-light.png" alt="AI Meter — an ASP.NET Core lab that meters LLM token usage, estimated cost, failures and latency per team with OpenTelemetry and Grafana, and gives each team its own request quota. .NET, OpenTelemetry, Grafana, AI." width="100%">
-  </picture>
-</a>
-
-[**LLM harness example**](https://github.com/DeVFirmino/llm-harness-example) — the files an LLM reads before it answers, kept in a repository and updated by review. Goes with [When the LLM gets lost, ask it to update the harness](https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness).
-
-[**AZ-900 Study Guide**](https://github.com/DeVFirmino/AZ900-Studies) — Azure Fundamentals from the concepts up, not memorised answers. Goes with [How I passed AZ-900](https://danieldias.dev/en/blog/how-i-passed-az-900).
+**Backend** ![C#](https://img.shields.io/badge/C%23-E8DCC4?style=flat-square&logo=csharp&logoColor=26211C) ![.NET](https://img.shields.io/badge/.NET-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C) ![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)<br>
+**Data** ![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E8DCC4?style=flat-square&logo=postgresql&logoColor=26211C) ![Redis](https://img.shields.io/badge/Redis-E8DCC4?style=flat-square&logo=redis&logoColor=26211C)<br>
+**Cloud & CI** ![Azure](https://img.shields.io/badge/Azure-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C) ![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C) ![AZ-900](https://img.shields.io/badge/AZ--900_Certified-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)<br>
+**Interfaces in my projects** ![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C) ![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
 
 ## Contact
-
-I'm open to backend .NET roles and freelance projects involving APIs and integrations.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
