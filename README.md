@@ -153,9 +153,11 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/contact-card-still.png">
-  <img src="assets/contact-card.gif" alt="Open to software roles, freelance projects and collaborations. Dani Bot waves hello." width="620">
+  <img src="assets/contact-card.gif" alt="Open to software roles, freelance projects and collaborations. Dani Bot waves hello." width="100%">
 </picture>
 
-[<img src="assets/cta-linkedin.png" alt="LinkedIn" height="32">](https://www.linkedin.com/in/daniel-dias-504168113/)
-[<img src="assets/cta-email.png" alt="Email" height="32">](mailto:daanspfc@gmail.com)
-[<img src="assets/cta-website.png" alt="Website" height="32">](https://danieldias.dev/en)
+<p align="center">
+  <a href="https://www.linkedin.com/in/daniel-dias-504168113/"><img src="assets/cta-linkedin.png" alt="LinkedIn" height="36"></a>
+  <a href="mailto:daanspfc@gmail.com"><img src="assets/cta-email.png" alt="Email" height="36"></a>
+  <a href="https://danieldias.dev/en"><img src="assets/cta-website.png" alt="Website" height="36"></a>
+</p>
