@@ -25,7 +25,7 @@ Follow a conversation in Maltese as it happens: the Maltese appears while people
 
 <a href="https://maltesetranscriber.mt"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/maltesetranscriber-still.png">
-  <img src="assets/how-it-works/maltesetranscriber.gif" alt="Animation: Maltese speech becomes live text, each finished phrase is translated into English, and both show side by side." width="420">
+  <img src="assets/how-it-works/maltesetranscriber.gif" alt="Animation: Maltese speech becomes live text, each finished phrase is translated into English, and both show side by side." width="100%">
 </picture></a>
 
 Live product. The browser streams short audio chunks over SignalR to a .NET server; Speechmatics writes the Maltese and OpenAI translates each finished phrase.<br>
@@ -38,7 +38,7 @@ Tap Bet twice by accident and you are charged once, and two bets at the same mom
 
 <a href="https://github.com/DeVFirmino/SportsBetting"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/sportsbetting-still.png">
-  <img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="420">
+  <img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="100%">
 </picture></a>
 
 API in .NET 10 for one betting flow: deposit, choose a fixture, place a bet. The wallet debit and the bet commit together, a `rowversion` stops two requests spending the same balance, and a repeated idempotency key never debits twice.<br>
@@ -51,7 +51,7 @@ When one payment provider says no, it tries the next one, and you are never char
 
 <a href="https://github.com/DeVFirmino/PayMaestro"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/paymaestro-still.png">
-  <img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="420">
+  <img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="100%">
 </picture></a>
 
 One API in front of several simulated payment gateways. It reserves the idempotency key before calling any gateway and moves to the next gateway on a soft decline. It stops on a hard decline, and when a charge gets no answer it checks that charge with the provider instead of charging again.<br>
@@ -64,7 +64,7 @@ Vans report where they are as they drive; the kilometres add up, and speeding go
 
 <a href="https://github.com/DeVFirmino/FleetAnalytics"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/fleetanalytics-still.png">
-  <img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="420">
+  <img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="100%">
 </picture></a>
 
 Vehicle telemetry API. Each GPS reading adds the distance driven to the odometer and raises an alert when the vehicle speeds or is due for a service. The reading, its alerts and the odometer update commit in one transaction.<br>
@@ -77,7 +77,7 @@ Turns a long link into a short one that opens the right page for whoever taps it
 
 <a href="https://github.com/DeVFirmino/UrlShortner"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/urlshortner-still.png">
-  <img src="assets/how-it-works/urlshortner.gif" alt="Animation: a long link becomes a short one, you send it to a friend and they land on the original page." width="420">
+  <img src="assets/how-it-works/urlshortner.gif" alt="Animation: a long link becomes a short one, you send it to a friend and they land on the original page." width="100%">
 </picture></a>
 
 Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassandra and collision handling for short codes, all started with one Docker Compose command.<br>
@@ -150,6 +150,13 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 </picture>
 
 ## Contact
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/dani-bot-wave-dark-still.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/dani-bot-wave-light-still.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dani-bot-wave-dark.gif">
+  <img src="assets/dani-bot-wave-light.gif" alt="Dani Bot waving hello." width="96" align="right">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
