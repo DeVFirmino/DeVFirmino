@@ -16,10 +16,6 @@ Software developer focused on backend .NET. I build APIs and run the live projec
 
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/credentials-dark.png">
-  <img src="assets/credentials-light.png" alt="Education: Technology Degree in Systems Analysis and Development (UniFatecie, Brazil, QQI Level 6); Higher Diploma in Computing (SETU, Ireland, QQI Level 7). Languages spoken: PT, EN, IT, FR (A2)." width="100%">
-</picture>
 
 ## Projects
 
@@ -29,7 +25,7 @@ Follow a conversation in Maltese as it happens: the Maltese appears while people
 
 <a href="https://maltesetranscriber.mt"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/maltesetranscriber-still.png">
-  <img src="assets/how-it-works/maltesetranscriber.gif" alt="Animation: Maltese speech becomes live text, each finished phrase is translated into English, and both show side by side." width="420">
+  <img src="assets/how-it-works/maltesetranscriber.gif" alt="Animation: Maltese speech becomes live text, each finished phrase is translated into English, and both show side by side." width="100%">
 </picture></a>
 
 Live product. The browser streams short audio chunks over SignalR to a .NET server; Speechmatics writes the Maltese and OpenAI translates each finished phrase.<br>
@@ -42,7 +38,7 @@ Tap Bet twice by accident and you are charged once, and two bets at the same mom
 
 <a href="https://github.com/DeVFirmino/SportsBetting"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/sportsbetting-still.png">
-  <img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="420">
+  <img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="100%">
 </picture></a>
 
 API in .NET 10 for one betting flow: deposit, choose a fixture, place a bet. The wallet debit and the bet commit together, a `rowversion` stops two requests spending the same balance, and a repeated idempotency key never debits twice.<br>
@@ -55,7 +51,7 @@ When one payment provider says no, it tries the next one, and you are never char
 
 <a href="https://github.com/DeVFirmino/PayMaestro"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/paymaestro-still.png">
-  <img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="420">
+  <img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="100%">
 </picture></a>
 
 One API in front of several simulated payment gateways. It reserves the idempotency key before calling any gateway and moves to the next gateway on a soft decline. It stops on a hard decline, and when a charge gets no answer it checks that charge with the provider instead of charging again.<br>
@@ -68,7 +64,7 @@ Vans report where they are as they drive; the kilometres add up, and speeding go
 
 <a href="https://github.com/DeVFirmino/FleetAnalytics"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/fleetanalytics-still.png">
-  <img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="420">
+  <img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="100%">
 </picture></a>
 
 Vehicle telemetry API. Each GPS reading adds the distance driven to the odometer and raises an alert when the vehicle speeds or is due for a service. The reading, its alerts and the odometer update commit in one transaction.<br>
@@ -81,7 +77,7 @@ Turns a long link into a short one that opens the right page for whoever taps it
 
 <a href="https://github.com/DeVFirmino/UrlShortner"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/urlshortner-still.png">
-  <img src="assets/how-it-works/urlshortner.gif" alt="Animation: a long link becomes a short one, you send it to a friend and they land on the original page." width="420">
+  <img src="assets/how-it-works/urlshortner.gif" alt="Animation: a long link becomes a short one, you send it to a friend and they land on the original page." width="100%">
 </picture></a>
 
 Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassandra and collision handling for short codes, all started with one Docker Compose command.<br>
@@ -91,6 +87,11 @@ Three stateless .NET replicas behind nginx, Redis cache-aside in front of Cassan
 ### [danieldias.dev](https://danieldias.dev/en)
 
 My site and blog, in five languages.
+
+<a href="https://danieldias.dev/en"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/danielsite-still.png">
+  <img src="assets/how-it-works/danielsite.gif" alt="Animation: a new post goes up on a phone, it comes in five languages, the reader taps Malta's flag and the whole post switches to Maltese. Dani Bot helped translate every edition." width="100%">
+</picture></a>
 
 The .NET site I build and run. A local tool turns a draft into five language editions and validates each one before it opens a pull request. CI audits the dependencies, and the metrics endpoint sits behind a token.<br>
 [Live site ↗](https://danieldias.dev/en) · Source private<br>
@@ -121,7 +122,10 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 
 .NET, Azure, AI and system design, in English, Portuguese, Italian, French and Maltese. [Read the blog ↗](https://danieldias.dev/en/blog) · [RSS](https://danieldias.dev/en/blog/feed.xml)
 
-**Latest posts**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/latest-articles-dark.svg">
+  <img src="assets/latest-articles-light.svg" alt="Latest articles, from the blog." width="440">
+</picture>
 
 <!-- BLOG-POST-LIST:START -->
 - [Half a million small databases: how Brazil counts 125 million votes in one night](https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night) · Oct 2026
@@ -140,18 +144,22 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 
 ## Tech
 
-**Backend** ![C#](https://img.shields.io/badge/C%23-E8DCC4?style=flat-square&logo=csharp&logoColor=26211C) ![.NET](https://img.shields.io/badge/.NET-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-E8DCC4?style=flat-square&logo=dotnet&logoColor=26211C) ![EF Core](https://img.shields.io/badge/EF_Core-E8DCC4?style=flat-square&logo=nuget&logoColor=26211C)<br>
-**Data** ![SQL Server](https://img.shields.io/badge/SQL_Server-E8DCC4?style=flat-square&logo=microsoftsqlserver&logoColor=26211C) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-E8DCC4?style=flat-square&logo=postgresql&logoColor=26211C) ![Redis](https://img.shields.io/badge/Redis-E8DCC4?style=flat-square&logo=redis&logoColor=26211C)<br>
-**Cloud & CI** ![Azure](https://img.shields.io/badge/Azure-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C) ![Docker](https://img.shields.io/badge/Docker-E8DCC4?style=flat-square&logo=docker&logoColor=26211C) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E8DCC4?style=flat-square&logo=githubactions&logoColor=26211C) ![AZ-900](https://img.shields.io/badge/AZ--900_Certified-E8DCC4?style=flat-square&logo=microsoftazure&logoColor=26211C)<br>
-**Interfaces in my projects** ![TypeScript](https://img.shields.io/badge/TypeScript-E8DCC4?style=flat-square&logo=typescript&logoColor=26211C) ![React](https://img.shields.io/badge/React-E8DCC4?style=flat-square&logo=react&logoColor=26211C)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/tech-phone.svg">
+  <img src="assets/tech.svg" alt="Tech. Backend: C#, .NET, ASP.NET Core, EF Core. Data: SQL Server, PostgreSQL, Redis. Cloud and delivery: Azure, Docker, GitHub Actions. Frontend in my projects: TypeScript, React. AI and agents: RAG, agent orchestration, context engineering, prompt engineering, chatbots; Claude Code, MCP, agent skills, OpenAI." width="100%">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/credentials-card.svg">
+  <img src="assets/credentials-wide.svg" alt="Education and certification: Higher Diploma in Computing, SETU, Ireland, QQI Level 7; Technology Degree in Systems Analysis and Development, UniFatecie, Brazil, QQI Level 6; Microsoft Certified: Azure Fundamentals (AZ-900). Languages: Portuguese, English, Italian, French (A2)." width="100%">
+</picture>
 
 ## Contact
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/open-to-work-dark.png">
-  <img src="assets/open-to-work-light.png" alt="Open to software roles, freelance projects and collaborations." width="470">
-</picture>
+<img src="assets/contact-card.svg" alt="Open to software roles, freelance projects and collaborations. Dani Bot waves hello." width="100%">
 
-[<img src="assets/cta-linkedin.png" alt="LinkedIn" height="32">](https://www.linkedin.com/in/daniel-dias-504168113/)
-[<img src="assets/cta-email.png" alt="Email" height="32">](mailto:daanspfc@gmail.com)
-[<img src="assets/cta-website.png" alt="Website" height="32">](https://danieldias.dev/en)
+<p align="center">
+  <a href="https://www.linkedin.com/in/daniel-dias-504168113/"><img src="assets/cta-linkedin.png" alt="LinkedIn" height="36"></a>
+  <a href="mailto:daanspfc@gmail.com"><img src="assets/cta-email.png" alt="Email" height="36"></a>
+  <a href="https://danieldias.dev/en"><img src="assets/cta-website.png" alt="Website" height="36"></a>
+</p>
