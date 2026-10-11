@@ -144,7 +144,7 @@ My site and blog, in five languages.
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/tech-phone.svg">
-  <img src="assets/tech.svg" alt="Tech. Backend: C#, .NET, ASP.NET Core, EF Core. Data: SQL Server, PostgreSQL, Redis. Cloud and delivery: Azure, Docker, GitHub Actions. Frontend in my projects: TypeScript, React. AI and agents: OpenAI, Microsoft.Extensions.AI, OpenTelemetry, Speechmatics, MCP, Claude Code, AGENTS.md." width="100%">
+  <img src="assets/tech.svg" alt="Tech. Backend: C#, .NET, ASP.NET Core, EF Core. Data: SQL Server, PostgreSQL, Redis. Cloud and delivery: Azure, Docker, GitHub Actions. Frontend in my projects: TypeScript, React. AI and agents: RAG, agent orchestration, context engineering, prompt engineering, chatbots; Claude Code, MCP, agent skills, OpenAI." width="100%">
 </picture>
 
 <picture>
