@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Half a million small databases: how Brazil counts 125 million votes in one night",
+    "url": "https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night",
+    "category": "SYSTEM DESIGN",
+    "published_at": "2026-10-10T09:14:06+00:00",
+    "reading_minutes": 10
+  },
+  {
+    "title": "How troubleshooting changed from the 1950s to 2026",
+    "url": "https://danieldias.dev/en/blog/troubleshooting-from-the-1950s-to-2026",
+    "category": "AI",
+    "published_at": "2026-10-03T15:55:20+00:00",
+    "reading_minutes": 16
+  },
+  {
+    "title": "Azure Cosmos DB for RAG: benefits and when to choose it over a relational database",
+    "url": "https://danieldias.dev/en/blog/azure-cosmos-db-for-rag-benefits-and-when-to-choose-it",
+    "category": "AZURE",
+    "published_at": "2026-09-29T11:44:56+00:00",
+    "reading_minutes": 7
+  },
+  {
+    "title": "Kubernetes taints and tolerations explained with a theme park",
+    "url": "https://danieldias.dev/en/blog/kubernetes-taints-and-tolerations",
+    "category": "CLOUD",
+    "published_at": "2026-09-22T15:25:45+00:00",
+    "reading_minutes": 3
+  },
+  {
+    "title": "When the LLM gets lost, ask it to update the harness",
+    "url": "https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness",
+    "category": "AI",
+    "published_at": "2026-09-17T17:37:35+00:00",
+    "reading_minutes": 6
+  }
+]
