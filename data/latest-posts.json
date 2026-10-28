@@ -1,5 +1,12 @@
 [
   {
+    "title": "When your RAG pipeline becomes an attack surface",
+    "url": "https://danieldias.dev/en/blog/when-your-rag-pipeline-becomes-an-attack-surface",
+    "category": "AI",
+    "published_at": "2026-10-27T21:42:20+00:00",
+    "reading_minutes": 6
+  },
+  {
     "title": "Half a million small databases: how Brazil counts 125 million votes in one night",
     "url": "https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night",
     "category": "SYSTEM DESIGN",
@@ -26,12 +33,5 @@
     "category": "CLOUD",
     "published_at": "2026-09-22T15:25:45+00:00",
     "reading_minutes": 3
-  },
-  {
-    "title": "When the LLM gets lost, ask it to update the harness",
-    "url": "https://danieldias.dev/en/blog/ask-the-model-to-update-the-harness",
-    "category": "AI",
-    "published_at": "2026-09-17T17:37:35+00:00",
-    "reading_minutes": 6
   }
 ]
