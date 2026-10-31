@@ -7,6 +7,11 @@
 
 [**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**Email**](mailto:daanspfc@gmail.com)
 
+<a href="https://danieldias.dev/en"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still.png">
+  <img src="assets/hero.gif" alt="Dani Bot holds a coffee in front of a hand-drawn skyline of monuments while the windmill and the big wheel turn." width="100%">
+</picture></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lead-dark.svg">
   <img src="assets/lead-light.svg" alt=".NET Developer building practical web applications and APIs with C#, ASP.NET Core and SQL." width="518">
