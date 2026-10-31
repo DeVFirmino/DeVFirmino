@@ -126,15 +126,15 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 
 <!-- BLOG-POST-LIST:START -->
 <p>
-<a href="https://danieldias.dev/en/blog/when-your-rag-pipeline-becomes-an-attack-surface"><img src="assets/readme-blog/post-1.svg" alt="When your RAG pipeline becomes an attack surface. 27 Oct 2026 · 6 MIN." width="400"></a>
-<a href="https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night"><img src="assets/readme-blog/post-2.svg" alt="Half a million small databases: how Brazil counts 125 million votes in one night. 10 Oct 2026 · 10 MIN." width="400"></a>
+<a href="https://danieldias.dev/en/blog/october-2026-in-17-security-incidents"><img src="assets/readme-blog/post-1.svg" alt="October 2026 in 17 security incidents, and what they have in common. 30 Oct 2026 · 10 MIN." width="400"></a>
+<a href="https://danieldias.dev/en/blog/when-your-rag-pipeline-becomes-an-attack-surface"><img src="assets/readme-blog/post-2.svg" alt="When your RAG pipeline becomes an attack surface. 27 Oct 2026 · 6 MIN." width="400"></a>
 </p>
 <p>
-<a href="https://danieldias.dev/en/blog/troubleshooting-from-the-1950s-to-2026"><img src="assets/readme-blog/post-3.svg" alt="How troubleshooting changed from the 1950s to 2026. 3 Oct 2026 · 16 MIN." width="400"></a>
-<a href="https://danieldias.dev/en/blog/azure-cosmos-db-for-rag-benefits-and-when-to-choose-it"><img src="assets/readme-blog/post-4.svg" alt="Azure Cosmos DB for RAG: benefits and when to choose it over a relational database. 29 Sep 2026 · 7 MIN." width="400"></a>
+<a href="https://danieldias.dev/en/blog/how-brazil-counts-125-million-votes-in-one-night"><img src="assets/readme-blog/post-3.svg" alt="Half a million small databases: how Brazil counts 125 million votes in one night. 10 Oct 2026 · 10 MIN." width="400"></a>
+<a href="https://danieldias.dev/en/blog/troubleshooting-from-the-1950s-to-2026"><img src="assets/readme-blog/post-4.svg" alt="How troubleshooting changed from the 1950s to 2026. 3 Oct 2026 · 16 MIN." width="400"></a>
 </p>
 <p>
-<a href="https://danieldias.dev/en/blog/kubernetes-taints-and-tolerations"><img src="assets/readme-blog/post-5.svg" alt="Kubernetes taints and tolerations explained with a theme park. 22 Sep 2026 · 3 MIN." width="400"></a>
+<a href="https://danieldias.dev/en/blog/azure-cosmos-db-for-rag-benefits-and-when-to-choose-it"><img src="assets/readme-blog/post-5.svg" alt="Azure Cosmos DB for RAG: benefits and when to choose it over a relational database. 29 Sep 2026 · 7 MIN." width="400"></a>
 </p>
 <!-- BLOG-POST-LIST:END -->
 

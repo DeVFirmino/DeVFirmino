@@ -1,5 +1,12 @@
 [
   {
+    "title": "October 2026 in 17 security incidents, and what they have in common",
+    "url": "https://danieldias.dev/en/blog/october-2026-in-17-security-incidents",
+    "category": "AI",
+    "published_at": "2026-10-30T18:00:00+00:00",
+    "reading_minutes": 10
+  },
+  {
     "title": "When your RAG pipeline becomes an attack surface",
     "url": "https://danieldias.dev/en/blog/when-your-rag-pipeline-becomes-an-attack-surface",
     "category": "AI",
@@ -26,12 +33,5 @@
     "category": "AZURE",
     "published_at": "2026-09-29T11:44:56+00:00",
     "reading_minutes": 7
-  },
-  {
-    "title": "Kubernetes taints and tolerations explained with a theme park",
-    "url": "https://danieldias.dev/en/blog/kubernetes-taints-and-tolerations",
-    "category": "CLOUD",
-    "published_at": "2026-09-22T15:25:45+00:00",
-    "reading_minutes": 3
   }
 ]
