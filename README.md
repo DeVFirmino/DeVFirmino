@@ -5,7 +5,11 @@
   <img src="assets/logo-light.svg" alt="daniel dias" width="300">
 </picture>
 
-[**Website**](https://danieldias.dev/en) · [**Blog**](https://danieldias.dev/en/blog) · [**Email**](mailto:daanspfc@gmail.com)
+<p>
+  <a href="https://danieldias.dev/en"><img src="assets/cta-website.svg" alt="Website" height="36"></a>&nbsp;
+  <a href="https://danieldias.dev/en/blog"><img src="assets/cta-blog.svg" alt="Blog" height="36"></a>&nbsp;
+  <a href="mailto:daanspfc@gmail.com"><img src="assets/cta-email.svg" alt="Email" height="36"></a>
+</p>
 
 <a href="https://danieldias.dev/en"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still.png">
@@ -206,5 +210,5 @@ Each edition of a post lives in its own Markdown file. I built a local tool to p
 <img src="assets/contact-card.svg" alt="Open to software roles, freelance projects and collaborations. Dani Bot waves hello." width="100%">
 
 <p align="center">
-  <a href="mailto:daanspfc@gmail.com"><img src="assets/cta-email.png" alt="Email" height="36"></a>
+  <a href="mailto:daanspfc@gmail.com"><img src="assets/cta-email.svg" alt="Email" height="36"></a>
 </p>
