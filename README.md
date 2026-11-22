@@ -37,6 +37,45 @@ Open-source macOS app in Electron, React and Swift. Speech is transcribed on the
 [Download for Mac ↗](https://github.com/DeVFirmino/learntranscriber/releases/latest/download/LearnTranscriber-arm64.dmg) · [Homebrew](https://github.com/learntranscriber/homebrew-tap) · [Website](https://learntranscriber.danieldias.dev) · [Source](https://github.com/DeVFirmino/learntranscriber) · [How it works](https://github.com/DeVFirmino/learntranscriber#how-it-works)<br>
 <sub>ELECTRON · REACT · SWIFT · AI · Free and open source under the MIT license</sub>
 
+### [racha-bot](https://github.com/DeVFirmino/racha-bot) [![CI](https://github.com/DeVFirmino/racha-bot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DeVFirmino/racha-bot/actions/workflows/ci.yml)
+
+The weekly football list goes round the WhatsApp group, and two fair teams come back in seconds.
+
+<a href="https://github.com/DeVFirmino/racha-bot"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/rachabot-still.png">
+  <img src="assets/how-it-works/rachabot.webp" alt="Animation: the weekly list arrives in the WhatsApp group, each player ticks their name once they have paid, the organiser sends !sortear and the bot answers with a card of two teams." width="100%">
+</picture></a>
+
+WhatsApp bot in .NET 10 for a weekly pickup game. It reads the group's list the way people already write it, checks who has paid and draws two balanced teams with a goalkeeper in each, sent back as an image card drawn with ImageSharp. It connects through a self-hosted WAHA gateway, checks the signature on every webhook and answers only commands; a local simulator shows the card without a WhatsApp number.<br>
+[Source](https://github.com/DeVFirmino/racha-bot) · [Try it without WhatsApp](https://github.com/DeVFirmino/racha-bot#teste-em-1-minuto-sem-whatsapp) (in Portuguese)<br>
+<sub>.NET · WHATSAPP · IMAGESHARP · DOCKER · Free and open source under the MIT license</sub>
+
+### Ocllo
+
+Ocllo sits in the Mac's notch while your AI assistant writes code. You answer it there, and each finished turn gets a second opinion.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/ocllo-still.png">
+  <img src="assets/how-it-works/ocllo.webp" alt="Animation: on a MacBook an AI assistant edits code in the terminal, a card drops from Ocllo's island in the notch asking to run the tests, you click Allow, and the finished card says Looks good." width="100%">
+</picture>
+
+macOS companion in Swift for Claude Code, Codex and Copilot CLI. The agents report their sessions to Ocllo on the Mac through their own hooks; a permission or a question drops from the notch as a card you can answer, and Claude, on your own account, gives each finished turn a short verdict. Nothing is sent for review until you allow it for that project.<br>
+Source private<br>
+<sub>SWIFT · MACOS · REACT · AI · In progress, no public download yet</sub>
+
+### Catidea
+
+Volunteers count the cats at each colony from their phone, and the team sees how every colony changes over time.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/catidea-still.png">
+  <img src="assets/how-it-works/catidea.webp" alt="Animation: five street cats eat from a bowl while a volunteer counts them on the phone, two clipped ears are ringed as already neutered, the count is saved and the colony's chart gains today's bar." width="100%">
+</picture>
+
+Census platform for groups that look after street cat colonies. A count records what one person saw and is never edited, the share of ear-tipped cats is the headline number because it tracks how many are already neutered, and colony locations stay behind a sign-in. ASP.NET Core with EF Core on PostGIS, a React and TypeScript client, and reports in CSV and PDF.<br>
+Source private<br>
+<sub>.NET · POSTGIS · REACT · TYPESCRIPT</sub>
+
 ### [AI Meter](https://github.com/DeVFirmino/ai-meter)
 
 Two teams share one AI. Every answer adds to that team's bill, and when one team reaches its limit the other keeps going.
@@ -49,45 +88,6 @@ Two teams share one AI. Every answer adds to that team's bill, and when one team
 ASP.NET Core lab that meters LLM token usage, estimated cost, failures and latency per team with OpenTelemetry and Grafana. Each team has its own request limit: once its window is spent the API answers 429 with `Retry-After`, while the other teams keep theirs.<br>
 [Source](https://github.com/DeVFirmino/ai-meter) · [Blog post](https://danieldias.dev/en/blog/ai-meter-usage-and-cost-per-team) · [Lab guide](https://github.com/DeVFirmino/ai-meter/blob/main/docs/lab-guide.md)<br>
 <sub>.NET · OPENTELEMETRY · GRAFANA · AI · Simulated usage, no real spending</sub>
-
-### [Sports Betting API](https://github.com/DeVFirmino/SportsBetting) [![CI](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/DeVFirmino/SportsBetting/actions/workflows/ci.yml)
-
-Tap Bet twice by accident and you are charged once, and two bets at the same moment can't spend the same balance.
-
-<a href="https://github.com/DeVFirmino/SportsBetting"><picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/sportsbetting-still.png">
-  <img src="assets/how-it-works/sportsbetting.gif" alt="Animation: you tap Bet twice by accident and the bet is saved once, leaving one bet and €10." width="100%">
-</picture></a>
-
-API in .NET 10 for one betting flow: deposit, choose a fixture, place a bet. The wallet debit and the bet commit together, a `rowversion` stops two requests spending the same balance, and a repeated idempotency key never debits twice.<br>
-[Live API ↗](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html) (scales to zero) · [Source](https://github.com/DeVFirmino/SportsBetting) · Tests: [concurrent bets against real SQL Server](https://github.com/DeVFirmino/SportsBetting/blob/develop/tests/Integration.Test/PlaceBetUseCaseTests.cs) · [Deployment notes](https://github.com/DeVFirmino/SportsBetting#deployment)<br>
-<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE · Deployed by hand to Azure Container Apps with Azure SQL in September 2026</sub>
-
-### [PayMaestro](https://github.com/DeVFirmino/PayMaestro) [![CI](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DeVFirmino/PayMaestro/actions/workflows/ci.yml)
-
-When one payment provider says no, it tries the next one, and you are never charged twice.
-
-<a href="https://github.com/DeVFirmino/PayMaestro"><picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/paymaestro-still.png">
-  <img src="assets/how-it-works/paymaestro.gif" alt="Animation: the first provider declines, PayMaestro tries the next one and you are charged once." width="100%">
-</picture></a>
-
-One API in front of several simulated payment gateways. It reserves the idempotency key before calling any gateway and moves to the next gateway on a soft decline. It stops on a hard decline, and when a charge gets no answer it checks that charge with the provider instead of charging again.<br>
-[Source](https://github.com/DeVFirmino/PayMaestro) · Tests: [idempotency race](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/IdempotencyReservationTests.cs) · [reconciliation](https://github.com/DeVFirmino/PayMaestro/blob/main/tests/PayMaestro.Tests/ReconciliationTests.cs)<br>
-<sub>.NET · ASP.NET CORE · EF CORE · SQLITE · Simulated providers, no real money</sub>
-
-### [Fleet Analytics](https://github.com/DeVFirmino/FleetAnalytics)
-
-Vans report where they are as they drive; the kilometres add up, and speeding goes on the van's record.
-
-<a href="https://github.com/DeVFirmino/FleetAnalytics"><picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/fleetanalytics-still.png">
-  <img src="assets/how-it-works/fleetanalytics.gif" alt="Animation: a van sends its location and going over 80 km/h puts a speeding alert on its record." width="100%">
-</picture></a>
-
-Vehicle telemetry API. Each GPS reading adds the distance driven to the odometer and raises an alert when the vehicle speeds or is due for a service. The reading, its alerts and the odometer update commit in one transaction.<br>
-[Source](https://github.com/DeVFirmino/FleetAnalytics) · Tests: [a failure after the alert is staged saves nothing](https://github.com/DeVFirmino/FleetAnalytics/blob/master/tests/FleetAnalytics.Tests/Services/TripLogIngestionAtomicityTests.cs)<br>
-<sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
 
 ### [URL Shortener](https://github.com/DeVFirmino/UrlShortner) [![CI](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/DeVFirmino/UrlShortner/actions/workflows/ci.yml)
 
@@ -116,9 +116,18 @@ The .NET site I build and run. A local tool turns a draft into five language edi
 <sub>.NET · RAZOR PAGES · MARKDOWN · DOCKER</sub>
 
 <details>
-<summary><b>Three more projects</b></summary>
+<summary><b>Six more projects</b></summary>
 
 <br>
+
+[**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) — betting API where tapping Bet twice by accident charges you once, and two bets at the same moment can't spend the same balance. [Live API ↗](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html) (scales to zero)<br>
+<sub>.NET · ASP.NET CORE · SQL SERVER · AZURE</sub>
+
+[**PayMaestro**](https://github.com/DeVFirmino/PayMaestro) — one API in front of several simulated payment gateways. When one provider says no it tries the next, and it never charges twice.<br>
+<sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
+
+[**Fleet Analytics**](https://github.com/DeVFirmino/FleetAnalytics) — vehicle telemetry API. Each GPS reading adds to the odometer and raises speeding and service alerts in the same transaction.<br>
+<sub>.NET · ASP.NET CORE · EF CORE · SQLITE</sub>
 
 [**Good Hamburger**](https://github.com/DeVFirmino/good-hamburger) — order management API with combo discount rules, domain-level invariants and integration tests.<br>
 <sub>.NET · ASP.NET CORE · EF CORE · XUNIT</sub>
