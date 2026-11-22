@@ -120,7 +120,7 @@ A local tool I built turns each draft into five language editions, checks every 
 
 <br>
 
-[**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) — if the app sends the same bet twice, say after a dropped connection, you are charged once. Tests against a real SQL Server prove that two bets at the same moment can't spend the same balance. [Live API ↗](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html) (scales to zero)<br>
+[**Sports Betting API**](https://github.com/DeVFirmino/SportsBetting) — retry a bet with the same idempotency key, say after a dropped connection, and you are charged once. Tests against a real SQL Server prove that two bets at the same moment can't spend the same balance. [Live API ↗](https://sportsbetting-api.nicewave-b8afa4cf.westeurope.azurecontainerapps.io/swagger/index.html) (scales to zero)<br>
 <sub>.NET · ASP.NET CORE · SQL SERVER · AZURE</sub>
 
 [**PayMaestro**](https://github.com/DeVFirmino/PayMaestro) — when a provider declines for a temporary reason, the payment moves on to the next one, a hard decline stops it there, and the customer is never charged twice.<br>
