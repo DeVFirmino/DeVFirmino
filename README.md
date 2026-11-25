@@ -108,11 +108,11 @@ I built this to see how a shortener’s cache and database work together. The ap
 
 ### [danieldias.dev](https://danieldias.dev/en)
 
-My portfolio and a technical blog in five languages.
+My portfolio and a technical blog in four languages.
 
 <a href="https://danieldias.dev/en"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/how-it-works/danielsite-still.png">
-  <img src="assets/how-it-works/danielsite.webp" alt="Animation: a new post goes up on a phone, it comes in five languages, the reader taps Malta's flag and the whole post switches to Maltese. Dani Bot helped translate every edition." width="100%">
+  <img src="assets/how-it-works/danielsite.webp" alt="Animation: a new post goes up on a phone, it comes in four languages, the reader taps Brazil's flag and the whole post switches to Portuguese. Dani Bot helped translate every edition." width="100%">
 </picture></a>
 
 Each edition of a post lives in its own Markdown file. I built a local tool to prepare and review the translations before a pull request goes up.<br>
@@ -148,10 +148,10 @@ Each edition of a post lives in its own Markdown file. I built a local tool to p
 
 <a href="https://danieldias.dev/en/blog"><picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/blog-banner-still.png">
-  <img src="assets/blog-banner.webp" alt="Dani Bot types a post, it rises out of his laptop and fans out into English, Portuguese, Italian, French and Maltese editions, and a done seal lands on the stack." width="100%">
+  <img src="assets/blog-banner.webp" alt="Dani Bot types a post, it rises out of his laptop and fans out into English, Portuguese, Italian and French editions, and a done seal lands on the stack." width="100%">
 </picture></a>
 
-.NET, Azure, AI and system design, in English, Portuguese, Italian, French and Maltese. [Read the blog ↗](https://danieldias.dev/en/blog) · [RSS](https://danieldias.dev/en/blog/feed.xml)
+.NET, Azure, AI and system design, in English, Portuguese, Italian and French. [Read the blog ↗](https://danieldias.dev/en/blog) · [RSS](https://danieldias.dev/en/blog/feed.xml)
 
 <p><img src="assets/readme-blog/header.svg" alt="From the blog. Latest articles." width="520"></p>
 
